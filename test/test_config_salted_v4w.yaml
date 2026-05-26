@@ -1,0 +1,7 @@
+# Evaluation — v4 weight model on salted-water carp test set.
+data_dir: data/carp/salted_water
+run_tag: salted_water_v4_weight
+test_file: data/carp/salted_water/test_v4w.npz
+batch_size: 64
+threshold: 0.5
+results_dir: results/weight/

@@ -1,0 +1,51 @@
+AquaSense Bream Detection Report  [inference mode — no GT]
+Recordings    : 25
+Threshold     : 0.5
+
+Results
+-------
+Total fish detected : 1531
+Total biomass       : 763410.6 g  (763.411 kg)
+Mean length         : 29.68 cm
+Mean weight         : 498.6 g
+
+Length distribution (1 cm bins):
+   22 cm      6  ######
+   23 cm      8  ########
+   24 cm     22  ######################
+   25 cm     61  ########################################
+   26 cm    106  ########################################
+   27 cm    154  ########################################
+   28 cm    256  ########################################
+   29 cm    239  ########################################
+   30 cm    206  ########################################
+   31 cm    208  ########################################
+   32 cm    143  ########################################
+   33 cm     82  ########################################
+   34 cm     30  ##############################
+   35 cm      8  ########
+   36 cm      2  ##
+
+Per-recording summary:
+  ARDG_AQUA bream 150gr 21 sm  281025 1132002.csv                77 fish  31375.5 g
+  ARDG_AQUA bream 150gr 21 sm  281025 1132004.csv                91 fish  41323.1 g
+  ARDG_AQUA bream 280gr 24cm  281025 1425002.csv                 45 fish  19694.4 g
+  ARDG_AQUA bream 310gr 23 sm  281025 1233002.csv               115 fish  51827.9 g
+  ARDG_AQUA bream 310gr 23 sm  281025 1233003.csv                 9 fish  4315.7 g
+  ARDG_AQUA bream 340gr 27cm  281025 1415002.csv                 17 fish  6748.8 g
+  ARDG_AQUA bream 390gr 26cm  281025 1325003.csv                 66 fish  39726.7 g
+  ARDG_AQUA bream 390gr 26cm  281025 1325005.csv                 92 fish  48172.6 g
+  ARDG_AQUA bream 580gr 30 sm  281025 1254002.csv               114 fish  57239.5 g
+  ARDG_AQUA bream 580gr 30 sm  281025 1254003.csv               110 fish  52560.7 g
+  ARDG_AQUA bream 630gr 31cm  281025 1400002.csv                 83 fish  40802.9 g
+  ARDG_AQUA bream 680gr 33 sm  281025 1208003.csv               109 fish  64510.8 g
+  ARDG_AQUA bream 800gr 36cm  281025 1453002.csv                 58 fish  34165.4 g
+  ARDG_AQUA bream150gr21cm  281025 1548002.csv                   51 fish  20153.6 g
+  ARDG_AQUA bream350 gr27cm  281025 1548002.csv                  48 fish  23458.7 g
+  ARDG_AQUA bream500gr 30cm  281025 1500002.csv                  80 fish  39267.7 g
+  ARDG_AQUA bream500gr 30cm  281025 1500003.csv                  31 fish  14945.3 g
+  ARDG_AQUA bream556gr 30cm  281025 1500002.csv                 134 fish  55892.1 g
+  ARDG_AQUA bream556gr 30cm  281025 1500003.csv                  12 fish  6073.1 g
+  ARDG_AQUA bream620 gr31cm  281025 1618003.csv                  98 fish  58209.3 g
+  ARDG_AQUA bream620 gr31cm  281025 1618004.csv                  23 fish  13374.8 g
+  ARDG_AQUA bream630gr 32cm  281025 1500002.csv                  68 fish  39572.0 g

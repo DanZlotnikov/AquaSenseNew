@@ -1,0 +1,5 @@
+batch_size: 64
+data_dir: data/carp/
+results_dir: results/
+threshold: 0.5
+run_tag: carp_length

@@ -1,0 +1,6 @@
+data_dir: data/carp/salted_water_split/
+test_file: data/carp/salted_water_split/test_dataset_12ch.npz
+batch_size: 64
+threshold: 0.5
+results_dir: results/
+run_tag: s0_model_on_combined

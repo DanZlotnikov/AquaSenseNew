@@ -1,0 +1,28 @@
+# FishModel hyperparameters
+# Passed directly into FishModel.__init__(cfg).
+#
+# v4 dataset — 12 acoustic channels only (IMP13/14/15/16, Distance_cm excluded).
+# Input X: (N, 39, 12)
+#   channels 0-11 : 12 raw acoustic time-series channels from recording CSVs
+#                   (F15, F37, F18, F32, F45, F67,
+#                    B15, B37, B18, B32, B45, B67)
+
+# --- Temporal CNN ---
+# All 12 acoustic channels are treated as time-varying signals.
+input_channels: 12
+
+# Dropout after the CNN backbone, before fusion
+dropout_temporal: 0.3
+
+# --- Physics MLP ---
+# Set to 0 for v3 (no processed features); physics branch is skipped entirely.
+physics_dim: 0
+
+# physics_hidden and dropout_physics are unused when physics_dim == 0
+# but kept here for reference if switching back to a dataset with physics features.
+physics_hidden: 64
+dropout_physics: 0.2
+
+# --- Fusion / shared FC ---
+hidden_dim: 128
+dropout_fc: 0.3

@@ -1,0 +1,16 @@
+data_dir: data/carp/salted_water_split/
+train_file: data/carp/salted_water_split/weight_train_dataset.npz
+val_file: data/carp/salted_water_split/weight_val_dataset.npz
+batch_size: 32
+max_epochs: 500
+lr: 1.0e-3
+weight_decay: 1.0e-4
+pos_weight: 1.0
+huber_delta: 0.3           # ~30% error in log space before switching to L1
+loss_weight_presence: 0.01
+loss_weight_weight: 1.0
+weight_noise_std: 0.05     # noise in log space (~5% multiplicative jitter)
+log_scale_weight: true
+lr_patience: 25
+early_stopping_patience: 60
+checkpoint_dir: checkpoints/salted_water_weight_logscale/

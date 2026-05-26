@@ -1,0 +1,12 @@
+data_dir: data/carp/salted_water_split/
+batch_size: 32
+max_epochs: 400
+lr: 1.0e-3
+weight_decay: 1.0e-4
+pos_weight: 8.0
+huber_delta: 150.0
+loss_weight_presence: 1.5
+loss_weight_weight: 1.5
+weight_noise_std: 50.0
+lr_patience: 20
+checkpoint_dir: checkpoints/salted_water_weight/

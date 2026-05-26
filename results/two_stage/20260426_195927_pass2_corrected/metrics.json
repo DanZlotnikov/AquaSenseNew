@@ -1,0 +1,27 @@
+{
+  "presence_ckpt": [
+    "checkpoints/salted_water/20260426_192033/best_model.pt",
+    "checkpoints/salted_water/20260426_192334/best_model.pt",
+    "checkpoints/salted_water/20260426_192826/best_model.pt"
+  ],
+  "weight_ckpt": "checkpoints/salted_water_weight_logscale/20260426_191732/best_model.pt",
+  "threshold": 0.5200000000000001,
+  "metrics": {
+    "accuracy": 0.951818,
+    "precision": 0.787879,
+    "recall": 0.709091,
+    "f1": 0.746411,
+    "mae": 287.3966,
+    "rmse": 428.9246,
+    "mape": 33.6179
+  },
+  "biomass_hard": {
+    "sum_true_g": 102640.0,
+    "sum_pred_g": 90205.94,
+    "diff_pct": -12.1142
+  },
+  "biomass_soft": {
+    "sum_pred_g": 94239.97,
+    "diff_pct": -8.184
+  }
+}

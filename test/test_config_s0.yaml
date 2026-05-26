@@ -1,0 +1,5 @@
+data_dir: data/carp/s0_split/
+run_tag: s0_length
+batch_size: 64
+threshold: 0.5
+results_dir: results/s0/

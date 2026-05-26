@@ -1,0 +1,6 @@
+# Evaluation — salted-water model (12 acoustic + 1 salt feature).
+data_dir: data/carp/salted_water_split/
+run_tag: salted_split_length
+batch_size: 64
+threshold: 0.5
+results_dir: results/

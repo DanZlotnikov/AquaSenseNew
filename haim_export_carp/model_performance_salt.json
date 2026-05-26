@@ -1,0 +1,14 @@
+{
+    "model":              "FishSaltModel (3-ensemble, natural positive rate, recording-split)",
+    "note":               "No data leakage — split by recording, not by window. Focal loss, val-loss checkpoint selection. Metrics from truly held-out recordings (val=420g fresh, test=920g fresh).",
+    "threshold":          0.55,
+    "split":              "recording-level (5 train / 1 val / 1 test)",
+    "val_recording":      "carp_420gr_27.5cm.csv (420 g, fresh water)",
+    "test_recording":     "carp_920gr_35cm.csv   (920 g, fresh water)",
+    "val_f1":             0.610,
+    "val_biomass_diff_pct":  22.3,
+    "test_biomass_diff_pct": -26.0,
+    "held_out_mape_pct":  24.1,
+    "operating_threshold": 0.55,
+    "note_threshold":     "thr=0.55 minimises mean absolute biomass error on held-out recordings; thr=0.50 gives +158%/+81% overestimation."
+}

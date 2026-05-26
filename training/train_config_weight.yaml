@@ -1,0 +1,42 @@
+# Training configuration for the fish weight prediction model.
+# All paths are relative to the project root.
+
+# --- Data ---
+data_dir: data/v4/
+batch_size: 64
+
+# --- Training ---
+max_epochs: 300
+lr: 1.0e-3
+weight_decay: 1.0e-4
+
+# --- Loss ---
+# pos_weight: upweights the positive class in BCEWithLogitsLoss.
+#   v2 dataset has 80% negatives / 20% positives -> ratio = 4.0
+pos_weight: 4.0
+
+# huber_delta: transition point (g) between L2 and L1 in HuberLoss.
+#   Set to ~50 g so the loss is robust to large outliers while
+#   still being quadratic (precise) near zero.
+huber_delta: 50.0
+
+# Loss weights: both tasks matter; presence is upweighted slightly
+# because the 80/20 imbalance makes it harder to learn.
+loss_weight_presence: 0.4
+loss_weight_weight: 1.5
+
+# Label noise std (g): adds Gaussian noise to weight targets during
+# training to encourage smooth generalisation across the weight range.
+weight_noise_std: 20.0
+
+# --- Learning rate scheduler (ReduceLROnPlateau) ---
+# Halves the LR after this many epochs with no val_loss improvement.
+lr_patience: 10
+
+# --- Early stopping ---
+# Stops training after this many epochs with no val_loss improvement.
+early_stopping_patience: 30
+
+# --- Checkpoints ---
+# Each training run saves to checkpoints/v4_weight/<YYYYMMDD_HHMMSS>/
+checkpoint_dir: checkpoints/v4_weight/

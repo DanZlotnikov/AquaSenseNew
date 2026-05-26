@@ -1,0 +1,10 @@
+Event-level detection evaluation — salted-water carp (in-domain recordings)
+=================================================================
+NOTE: These recordings were used during training (in-domain eval).
+Model: bream_carp_presence ensemble (3 runs, Platt-calibrated, thr=0.5)
+
+Overall
+  TP=241  FP=226  FN=33
+  Precision : 0.5161
+  Recall    : 0.8796
+  F1        : 0.6505

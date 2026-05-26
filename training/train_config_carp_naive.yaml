@@ -1,0 +1,19 @@
+data_dir: data/carp/naive/
+
+batch_size: 32
+
+max_epochs: 400
+lr:           1.0e-3
+weight_decay: 1.0e-4
+
+pos_weight:           4.0
+huber_delta:          1.0
+loss_weight_presence: 0.4
+loss_weight_length:   1.5
+
+length_noise_std: 0.5
+
+lr_patience:              15
+early_stopping_patience:  50
+
+checkpoint_dir: checkpoints/carp_naive_model/

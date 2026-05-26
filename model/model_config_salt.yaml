@@ -1,0 +1,10 @@
+# Model config for FishSaltModel
+# 12 acoustic input channels only — no salt channel in X.
+# Salinity is inferred from recording-level physics features (PHYSICS_DIM=3).
+
+input_channels:    12       # acoustic waveform channels (no 13th salt channel)
+hidden_dim:        128      # shared FC neck width
+physics_hidden:    64       # physics MLP hidden width  (output = physics_hidden // 2 = 32)
+dropout_temporal:  0.3
+dropout_physics:   0.2
+dropout_fc:        0.3

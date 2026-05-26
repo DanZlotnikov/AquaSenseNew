@@ -1,0 +1,25 @@
+data_dir:   data/carp/salted_water_mixsplit/
+train_file: data/carp/salted_water_mixsplit/train_salt.npz
+val_file:   data/carp/salted_water_mixsplit/val_salt.npz
+
+batch_size:   64
+max_epochs:   400
+lr:           1.0e-3
+weight_decay: 1.0e-4
+
+use_focal_loss: true
+focal_gamma:    2.0
+
+huber_delta:  0.3
+
+loss_weight_presence: 0.4
+loss_weight_weight:   1.0
+loss_weight_aux:      0.1
+
+log_scale_weight:     true
+weight_noise_std:     0.05
+
+lr_patience:              30
+early_stopping_patience:  80
+
+checkpoint_dir: checkpoints/mixsplit_salt/

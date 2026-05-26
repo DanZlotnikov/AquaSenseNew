@@ -1,0 +1,13 @@
+{
+  "checkpoint": "checkpoints/s0/20260423_144228/best_model.pt",
+  "eval_time": "2026-04-23T14:44:21",
+  "metrics": {
+    "accuracy": 0.83871,
+    "precision": 0.558824,
+    "recall": 0.919355,
+    "f1": 0.695122,
+    "mae": 3.054854,
+    "rmse": 3.842613,
+    "mape": 9.077106
+  }
+}

@@ -1,0 +1,12 @@
+# Evaluation configuration — v5 combined bream+carp length model.
+# All paths are relative to the project root.
+
+data_dir: data/v5/
+run_tag: v5_length
+batch_size: 64
+
+# sigmoid(logit) >= threshold -> fish present
+threshold: 0.5
+
+# Directory where per-run result JSON files and figures are written
+results_dir: results/

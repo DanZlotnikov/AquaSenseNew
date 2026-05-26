@@ -1,0 +1,5 @@
+data_dir: data/carp/salted_water_split/
+batch_size: 64
+threshold: 0.5
+results_dir: results/weight/
+run_tag: salted_split_weight

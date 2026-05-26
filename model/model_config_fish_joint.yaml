@@ -1,0 +1,8 @@
+# FishModel config for joint presence + weight training (13 input channels).
+# 12 acoustic channels + 1 salt channel (hardcoded from filename convention).
+# No physics branch (physics_dim omitted -> defaults to 0).
+
+input_channels:    13
+hidden_dim:        128
+dropout_temporal:  0.3
+dropout_fc:        0.3

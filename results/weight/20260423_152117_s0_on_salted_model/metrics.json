@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints/salted_water_weight/20260423_145408/best_model.pt",
+  "eval_time": "2026-04-23T15:21:17",
+  "target": "weight",
+  "metrics": {
+    "accuracy": 0.283871,
+    "precision": 0.216312,
+    "recall": 0.983871,
+    "f1": 0.354651,
+    "mae": 157.890778,
+    "rmse": 241.362198,
+    "mape": 24.781518
+  },
+  "aggregate": {
+    "sum_true_weight_g": 56740.0,
+    "sum_pred_weight_g": 61070.7539,
+    "sum_abs_diff_g": 4330.7539,
+    "sum_diff_pct": 7.6326
+  }
+}

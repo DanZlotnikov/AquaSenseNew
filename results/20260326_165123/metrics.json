@@ -1,0 +1,19 @@
+{
+  "run_ts": "20260326_165123",
+  "folder": "bream",
+  "checkpoint": "C:\\Users\\Admin\\repos\\AquaSenseNew\\checkpoints\\v4\\20260318_171244\\best_model.pt",
+  "weight_checkpoint": "C:\\Users\\Admin\\repos\\AquaSenseNew\\checkpoints\\v4_weight\\20260318_171628\\best_model.pt",
+  "threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.924812,
+    "precision": 0.730556,
+    "recall": 0.988722,
+    "f1": 0.840256,
+    "length_mae": 0.595389,
+    "length_rmse": 0.825449,
+    "length_mape": 2.116029,
+    "weight_mae": 18.243918,
+    "weight_rmse": 28.880735,
+    "weight_mape": 4.437357
+  }
+}

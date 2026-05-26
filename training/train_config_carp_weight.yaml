@@ -1,0 +1,22 @@
+data_dir: data/carp/weight/
+
+batch_size: 16
+
+max_epochs:   600
+lr:           5.0e-4
+weight_decay: 1.0e-3
+
+# Pure regression: presence head not trained — fish_presence_model does detection.
+# All samples are positives so loss_weight_presence=0 skips BCE entirely.
+pos_weight:           1.0
+huber_delta:          50.0
+loss_weight_presence: 0.0
+loss_weight_length:   1.0
+
+# Label noise: ~30g jitter to regularise on the small dataset (280-1700g range)
+length_noise_std: 30.0
+
+lr_patience:             30
+early_stopping_patience: 100
+
+checkpoint_dir: checkpoints/carp_weight_model/

@@ -1,0 +1,10 @@
+Event-level detection evaluation — ACQ_5_3_2026 (unseen fresh-water carp)
+=================================================================
+Ground truth: 427 valid events in 27 files
+Recordings processed: 115
+
+Overall
+  TP=300  FP=6062  FN=127
+  Precision : 0.0472
+  Recall    : 0.7026
+  F1        : 0.0884

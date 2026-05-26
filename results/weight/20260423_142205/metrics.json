@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints/v4_weight/20260318_171628/best_model.pt",
+  "eval_time": "2026-04-23T14:22:05",
+  "target": "weight",
+  "metrics": {
+    "accuracy": 0.2,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.333333,
+    "mae": 1898.34082,
+    "rmse": 2247.481445,
+    "mape": 277.900839
+  },
+  "aggregate": {
+    "sum_true_weight_g": 683880.0,
+    "sum_pred_weight_g": 2060338.0,
+    "sum_abs_diff_g": 1376458.0,
+    "sum_diff_pct": 201.2719
+  }
+}

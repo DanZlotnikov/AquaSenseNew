@@ -1,0 +1,36 @@
+NPZ Build Report — leakage audit
+==================================================
+Source folder    : bream
+Detections       : 1064
+Positive samples : 1064
+Negative samples : 4256
+Total samples    : 5320
+
+Input features (X) — ONLY these 12 columns from recording CSVs:
+  [ 1] F15
+  [ 2] F37
+  [ 3] F18
+  [ 4] F32
+  [ 5] F45
+  [ 6] F67
+  [ 7] B15
+  [ 8] B37
+  [ 9] B18
+  [10] B32
+  [11] B45
+  [12] B67
+
+Explicitly EXCLUDED from X:
+  IMP13, IMP14, IMP15, IMP16   (all-zero columns)
+  Distance_cm                  (acoustic range to fish — leakage risk)
+  Manual_button                (all-zero column)
+  Date, Time                   (metadata)
+
+From output_report.csv — used ONLY for:
+  raw_data_file_name   → select which recording file
+  start_index / end_index → window centre location
+  length_from_filename → y_length label
+  weight_from_filename → y_weight label
+  (all other report columns discarded)
+
+Normalizer source: file C:\Users\Admin\repos\AquaSenseNew\data\v4\normalizer.npz
