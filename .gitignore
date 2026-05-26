@@ -27,6 +27,9 @@ Thumbs.db
 .idea/
 *.swp
 
+# Generated results (large HTML/PNG/CSV — regenerate with scripts)
+results/
+
 # Temp investigation outputs
 scripts/ml_vs_gt_rows.json
 
