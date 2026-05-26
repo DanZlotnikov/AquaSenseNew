@@ -1,0 +1,20 @@
+source,file,gt,det,TP,FP,FN,precision,recall,F1
+ACQ,AQUA1375.csv,0,0,0,0,0,,,
+ACQ,AQUA1380.csv,0,0,0,0,0,,,
+ACQ,AQUA1385.csv,0,0,0,0,0,,,
+ACQ,AQUA1390.csv,0,1,0,1,0,0.0,,
+ACQ,AQUA1395.csv,0,0,0,0,0,,,
+ACQ,AQUA1429.csv,1,1,0,1,1,0.0,0.0,
+ACQ,AQUA1430.csv,2,14,2,12,0,0.1429,1.0,0.25
+ACQ,AQUA1445.csv,0,0,0,0,0,,,
+ACQ,AQUA1455.csv,0,0,0,0,0,,,
+ACQ,AQUA1462.csv,3,4,0,4,3,0.0,0.0,
+ACQ,AQUA1489.csv,0,0,0,0,0,,,
+carp_old,AQUA051 880gr_31cm.csv,0,4,0,4,0,0.0,,
+carp_old,AQUA056 880gr_31cm.csv,3,8,3,5,0,0.375,1.0,0.5455
+carp_old,AQUA064 880gr_31cm.csv,0,0,0,0,0,,,
+carp_old,AQUA075 880gr_31cm.csv,5,12,2,10,3,0.1667,0.4,0.2353
+carp_old,AQUA077 440gr_27cm.csv,0,1,0,1,0,0.0,,
+salted_water,carp_1580gr_41.5cm_S400.csv,57,94,56,38,1,0.5957,0.9825,0.7417
+salted_water,carp_920gr_35cm_S400.csv,66,104,63,41,3,0.6058,0.9545,0.7412
+salted_water_test,AQUAtest003.csv,2,1,1,0,1,1.0,0.5,0.6667

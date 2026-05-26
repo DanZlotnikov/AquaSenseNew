@@ -1,0 +1,14 @@
+find_peaks evaluation — carp_presence_v3
+============================================================
+Model     : carp_presence_v3 (3 ensemble members)
+Norm      : per-recording z-score, SIGMA_FLOOR=150.0
+Detection : scipy.signal.find_peaks(height, distance)
+Test files: 19
+
+Best params: height=0.7  distance=24 (120 samples)
+
+Overall @ best params
+  TP=127  FP=117  FN=12
+  Precision : 0.5205
+  Recall    : 0.9137
+  F1        : 0.6632
