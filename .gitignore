@@ -14,8 +14,12 @@ venv/
 data/
 bream/
 
-# Trained model checkpoints (large .pt files)
-checkpoints/
+# Trained model checkpoints (large .pt files — README.md files are tracked)
+checkpoints/**
+!checkpoints/
+!checkpoints/*/
+!checkpoints/*/*/
+!checkpoints/**/README.md
 
 # Claude Code internal
 .claude/

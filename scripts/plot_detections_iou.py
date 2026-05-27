@@ -44,6 +44,17 @@ OUT_DIR    = _ROOT / "results" / f"{_TS}_detections_iou_v3"
 
 SIGNAL_CHANNELS = ["F15","F37","F18","F32","F45","F67","B15","B37","B18","B32","B45","B67"]
 SKIP        = ("output","report","axis","summary","function","points","updated")
+
+PALETTE = [
+    "#1f77b4","#ff7f0e","#2ca02c","#d62728",
+    "#9467bd","#8c564b","#e377c2","#7f7f7f",
+    "#bcbd22","#17becf","#aec7e8","#ffbb78",
+]
+
+# Channels sorted by model gradient saliency (analyze_electrode_importance.py)
+CHANNELS_BY_GRADIENT = [
+    "F32","F18","F45","F15","B32","B67","B18","F37","B15","F67","B37","B45",
+]
 WINDOW_SIZE = 39
 STRIDE      = 5
 SIGMA_FLOOR = 150.0
@@ -96,7 +107,7 @@ def infer(csv_path, models, device):
     norm = normalize(raw)
     starts = np.array(range(0, max(0, len(norm) - WINDOW_SIZE + 1), STRIDE), dtype=np.int32)
     if len(starts) == 0:
-        return sig, starts, np.array([], dtype=np.float32), []
+        return sig, raw, starts, np.array([], dtype=np.float32), []
     wins = np.stack([norm[i: i + WINDOW_SIZE] for i in starts])
     logits = np.zeros(len(wins), dtype=np.float32)
     with torch.no_grad():
@@ -128,7 +139,7 @@ def infer(csv_path, models, device):
                 "span_end":   int(starts[g[-1]]) + WINDOW_SIZE,
                 "peak_prob":  float(probs[pk]),
             })
-    return sig, starts, probs, dets
+    return sig, raw, starts, probs, dets
 
 
 # ── IoU & matching ─────────────────────────────────────────────────────────────
@@ -163,7 +174,7 @@ def greedy_match(gt_events, dets):
 
 
 # ── HTML chart ────────────────────────────────────────────────────────────────
-def make_html(fname, sig, starts, probs, gt_events, dets,
+def make_html(fname, sig, raw, starts, probs, gt_events, dets,
               matches, unmatched_gt, unmatched_det) -> str:
     sr      = SAMPLE_RATE
     n       = len(sig)
@@ -178,16 +189,30 @@ def make_html(fname, sig, starts, probs, gt_events, dets,
 
     fig = go.Figure()
 
-    # Signal trace (top panel — yaxis)
+    # Mean signal trace — visible by default
     fig.add_trace(go.Scatter(
         x=t,
         y=sig.tolist(),
         mode="lines",
-        line=dict(color="#555", width=0.8),
-        name="Signal (mean 12ch, ADC)",
+        line=dict(color="#333", width=1.2),
+        name="Mean (12ch)",
         yaxis="y",
         hovertemplate="t=%{x:.2f}s  amp=%{y:.0f}<extra></extra>",
     ))
+
+    # Individual electrode traces — hidden by default, ordered by model gradient saliency
+    for rank, ch in enumerate(CHANNELS_BY_GRADIENT):
+        i = SIGNAL_CHANNELS.index(ch)
+        fig.add_trace(go.Scatter(
+            x=t,
+            y=raw[:, i].tolist(),
+            mode="lines",
+            line=dict(color=PALETTE[rank], width=0.8),
+            name=ch,
+            visible="legendonly",
+            yaxis="y",
+            hovertemplate=f"<b>{ch}</b>  t=%{{x:.2f}}s  amp=%{{y:.0f}}<extra></extra>",
+        ))
 
     # Probability trace (bottom panel — yaxis2)
     fig.add_trace(go.Scatter(
@@ -343,10 +368,11 @@ def make_html(fname, sig, starts, probs, gt_events, dets,
         ),
         legend=dict(
             orientation="h",
-            yanchor="bottom", y=1.02,
-            xanchor="right", x=1,
+            yanchor="top", y=-0.25,
+            xanchor="center", x=0.5,
+            font=dict(size=11),
         ),
-        margin=dict(l=65, r=20, t=55, b=90),
+        margin=dict(l=65, r=20, t=55, b=200),
     )
 
     return fig.to_html(
@@ -480,8 +506,8 @@ def main():
         if cli_filters and not any(kw in fname for kw in cli_filters):
             continue
 
-        gt_events              = gt_by_file.get(fname, [])
-        sig, starts, probs, dets = infer(csv_path, models, device)
+        gt_events                    = gt_by_file.get(fname, [])
+        sig, raw, starts, probs, dets = infer(csv_path, models, device)
 
         if not cli_filters and not gt_events and not dets:
             continue
@@ -496,7 +522,7 @@ def main():
         print(f"  {fname:25s}  GT={len(gt_events):3d}  ML={len(dets):3d}  "
               f"TP={tp:3d}  FP={fp:3d}  FN={fn:3d}  mean_IoU={mean_iou:.3f}")
 
-        html_str  = make_html(fname, sig, starts, probs, gt_events, dets,
+        html_str  = make_html(fname, sig, raw, starts, probs, gt_events, dets,
                               matches, unmatched_gt, unmatched_det)
         html_name = f"{csv_path.stem}_iou.html"
         (OUT_DIR / html_name).write_text(html_str, encoding="utf-8")
