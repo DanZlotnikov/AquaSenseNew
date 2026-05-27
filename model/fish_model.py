@@ -116,6 +116,18 @@ class FishModel(nn.Module):
         self.presence_head    = nn.Linear(hidden, 1)   # raw logit
         self.regression_head  = nn.Linear(hidden, 1)   # length (cm) or weight (g)
 
+        # --- Co-activation gate (optional) ---------------------------
+        # Adds an additive logit correction based on min(F-ring peak, B-ring peak).
+        # Penalises detections where only one ring is active.
+        # Input to gate: joint_min clamped to [0,1] (raw peak / 5.0, floor 0).
+        # Init: gate = 2*joint_min - 1  →  -1 when inactive, 0 at joint_min=0.5, +1 at max.
+        self._use_coact = cfg.get("coact_gate", False)
+        if self._use_coact:
+            self._n_front = cfg.get("f_channels", 6)
+            self.coact_gate_layer = nn.Linear(1, 1, bias=True)
+            nn.init.constant_(self.coact_gate_layer.weight, 2.0)
+            nn.init.constant_(self.coact_gate_layer.bias, -1.0)
+
     def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         """
         Args:
@@ -128,6 +140,7 @@ class FishModel(nn.Module):
             logit_presence  : (batch,)
             pred_regression : (batch,)  length in cm or weight in g
         """
+        x_in     = x                                   # saved for coact gate
         n_sensor = self.temporal_branch[0].conv[0].in_channels
 
         # Temporal branch — always uses the first n_sensor channels
@@ -147,5 +160,14 @@ class FishModel(nn.Module):
 
         logit_presence  = self.presence_head(x).squeeze(-1)    # (B,)
         pred_regression = self.regression_head(x).squeeze(-1)  # (B,)
+
+        # Co-activation gate: suppresses logit when only one ring is active
+        if self._use_coact:
+            n_f    = self._n_front
+            f_peak = x_in[:, :, :n_f].abs().amax(dim=(1, 2)).clamp(0, 5) / 5.0   # (B,)
+            b_peak = x_in[:, :, n_f:n_sensor].abs().amax(dim=(1, 2)).clamp(0, 5) / 5.0
+            joint_min = torch.min(f_peak, b_peak).unsqueeze(1)                     # (B, 1)
+            gate = self.coact_gate_layer(joint_min).squeeze(-1)                    # (B,)
+            logit_presence = logit_presence + gate
 
         return logit_presence, pred_regression

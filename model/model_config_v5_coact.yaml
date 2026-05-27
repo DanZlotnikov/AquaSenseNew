@@ -1,0 +1,6 @@
+input_channels:   12
+hidden_dim:       128
+dropout_temporal: 0.3
+dropout_fc:       0.3
+coact_gate:       true
+f_channels:       6
