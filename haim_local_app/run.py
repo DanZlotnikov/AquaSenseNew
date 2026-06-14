@@ -96,10 +96,12 @@ def main() -> None:
     )
 
     # ── Print summary ─────────────────────────────────────────────────────────
-    s = result["summary"]
-    print(f"\nFish detected : {s['n_fish']}")
-    print(f"Avg weight    : {s['avg_weight_g']:.1f} g")
-    print(f"Total biomass : {s['biomass_g']:.1f} g")
+    dets = result["detections"]
+    n    = len(dets)
+    avg_w = (sum(d["weight "] for d in dets) / n) if n else 0.0
+    print(f"\nFish detected : {n}")
+    print(f"Avg weight    : {avg_w:.1f} g")
+    print(f"Unix timestamp: {result['unix_timestamp']}")
     print(f"\nSaved -> {out_path}")
 
 

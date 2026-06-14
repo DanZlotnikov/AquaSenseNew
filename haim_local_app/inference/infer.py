@@ -1,7 +1,7 @@
 """Core two-stage inference: presence detection → weight regression."""
 
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -172,6 +172,9 @@ def run_inference(
     has_date = "Date" in df.columns
     has_time = "Time" in df.columns
 
+    # Unix timestamp from the first row of the CSV
+    unix_timestamp = _csv_start_unix(df)
+
     raw = df[SIGNAL_CHANNELS].values.astype(np.float32)
 
     # ── Per-recording z-score normalisation ───────────────────────────────────
@@ -220,46 +223,48 @@ def run_inference(
         det_time = str(df["Time"].iloc[row_idx]) if has_time else None
 
         result_dets.append({
-            "detection_date": det_date,
-            "detection_time": det_time,
-            "number_of_fish": fish_id,
-            "is_valid":       True,
-            "length":         None,
-            "weight":         round(w, 2),
-            "ml_confidence":  round(det["peak_prob"], 4),
+            "detection_date":  det_date,
+            "detection_time":  det_time,
+            "number_of_fish":  fish_id,
+            "is_valid":        True,
+            "length ":         None,
+            "weight ":         round(w, 2),
+            "ml_confidence":   round(det["peak_prob"], 4),
         })
 
-    n_fish  = len(fish_weights)
-    biomass = float(sum(fish_weights))
-
     return {
-        "metadata": {
-            "input_file":       str(csv_path),
-            "species":          species,
-            "weight_variant":   weight_variant,
-            "run_timestamp":    datetime.now().isoformat(timespec="seconds"),
-            "n_models_presence": len(pres_models),
-            "n_models_weight":   len(wt_models),
-            "merge_gap":        merge_gap,
-            "threshold":        threshold,
+        "authentication": {
+            "authentication_code": "",
+            "device_id":           "",
         },
-        "summary": {
-            "n_fish":       n_fish,
-            "avg_weight_g": round(biomass / n_fish, 2) if n_fish else 0.0,
-            "biomass_g":    round(biomass, 2),
-        },
-        "detections": result_dets,
+        "unix_timestamp":    unix_timestamp,
+        "Water temperature": None,
+        "Water resistance":  None,
+        "detections":        result_dets,
     }
+
+
+def _csv_start_unix(df: "pd.DataFrame") -> int:
+    """Return the Unix timestamp of the first row in the CSV, or 0 if unparseable."""
+    try:
+        date_str = str(df["Date"].iloc[0])
+        time_str = str(df["Time"].iloc[0])
+        # Time may be "HH:MM:SS.fff" or "HH:MM:SS"
+        fmt = "%Y-%m-%d %H:%M:%S.%f" if "." in time_str else "%Y-%m-%d %H:%M:%S"
+        dt  = datetime.strptime(f"{date_str} {time_str}", fmt)
+        return int(dt.replace(tzinfo=timezone.utc).timestamp())
+    except Exception:
+        return 0
 
 
 def _empty_result(csv_path, species, weight_variant) -> dict:
     return {
-        "metadata": {
-            "input_file":     str(csv_path),
-            "species":        species,
-            "weight_variant": weight_variant,
-            "run_timestamp":  datetime.now().isoformat(timespec="seconds"),
+        "authentication": {
+            "authentication_code": "",
+            "device_id":           "",
         },
-        "summary":    {"n_fish": 0, "avg_weight_g": 0.0, "biomass_g": 0.0},
-        "detections": [],
+        "unix_timestamp":    0,
+        "Water temperature": None,
+        "Water resistance":  None,
+        "detections":        [],
     }
