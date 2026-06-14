@@ -1,0 +1,82 @@
+2026-05-27 14:09:56 | INFO     | Run ID : 20260527_140956
+2026-05-27 14:09:56 | INFO     | Device : cpu
+2026-05-27 14:09:56 | INFO     | Train samples: 3808 | Val samples: 515
+2026-05-27 14:09:56 | INFO     | Model parameters: 54,722
+2026-05-27 14:09:57 | INFO     | Starting training for up to 400 epochs
+2026-05-27 14:09:57 | INFO     | --------------------------------------------------------------------------------
+2026-05-27 14:09:58 | INFO     | Epoch   1/400 | train_loss=0.4961 | val_loss=0.5737 | val_mae=0.122cm | val_mape=inf% | val_f1=0.800  [best]
+2026-05-27 14:09:59 | INFO     | Epoch   2/400 | train_loss=0.4546 | val_loss=0.5578 | val_mae=0.140cm | val_mape=inf% | val_f1=0.781  [best]
+2026-05-27 14:10:00 | INFO     | Epoch   3/400 | train_loss=0.3946 | val_loss=0.5484 | val_mae=0.153cm | val_mape=inf% | val_f1=0.750  [best]
+2026-05-27 14:10:01 | INFO     | Epoch   4/400 | train_loss=0.3759 | val_loss=0.4668 | val_mae=0.113cm | val_mape=inf% | val_f1=0.727  [best]
+2026-05-27 14:10:02 | INFO     | Epoch   5/400 | train_loss=0.3304 | val_loss=0.5890 | val_mae=0.158cm | val_mape=inf% | val_f1=0.736
+2026-05-27 14:10:02 | INFO     | Epoch   6/400 | train_loss=0.2985 | val_loss=0.4144 | val_mae=0.141cm | val_mape=inf% | val_f1=0.804  [best]
+2026-05-27 14:10:03 | INFO     | Epoch   7/400 | train_loss=0.3061 | val_loss=0.3368 | val_mae=0.148cm | val_mape=inf% | val_f1=0.823  [best]
+2026-05-27 14:10:04 | INFO     | Epoch   8/400 | train_loss=0.2668 | val_loss=0.4556 | val_mae=0.134cm | val_mape=inf% | val_f1=0.802
+2026-05-27 14:10:05 | INFO     | Epoch   9/400 | train_loss=0.2541 | val_loss=0.4769 | val_mae=0.108cm | val_mape=inf% | val_f1=0.819
+2026-05-27 14:10:06 | INFO     | Epoch  10/400 | train_loss=0.2733 | val_loss=0.8437 | val_mae=0.166cm | val_mape=inf% | val_f1=0.632
+2026-05-27 14:10:07 | INFO     | Epoch  11/400 | train_loss=0.2843 | val_loss=0.2315 | val_mae=0.137cm | val_mape=inf% | val_f1=0.856  [best]
+2026-05-27 14:10:08 | INFO     | Epoch  12/400 | train_loss=0.2419 | val_loss=0.5878 | val_mae=0.158cm | val_mape=inf% | val_f1=0.789
+2026-05-27 14:10:09 | INFO     | Epoch  13/400 | train_loss=0.2453 | val_loss=0.2429 | val_mae=0.156cm | val_mape=inf% | val_f1=0.860
+2026-05-27 14:10:09 | INFO     | Epoch  14/400 | train_loss=0.2394 | val_loss=0.2518 | val_mae=0.170cm | val_mape=inf% | val_f1=0.856
+2026-05-27 14:10:10 | INFO     | Epoch  15/400 | train_loss=0.2175 | val_loss=0.2322 | val_mae=0.179cm | val_mape=inf% | val_f1=0.873
+2026-05-27 14:10:11 | INFO     | Epoch  16/400 | train_loss=0.2130 | val_loss=0.3212 | val_mae=0.135cm | val_mape=inf% | val_f1=0.836
+2026-05-27 14:10:12 | INFO     | Epoch  17/400 | train_loss=0.2266 | val_loss=0.4864 | val_mae=0.142cm | val_mape=inf% | val_f1=0.833
+2026-05-27 14:10:13 | INFO     | Epoch  18/400 | train_loss=0.2077 | val_loss=0.2730 | val_mae=0.091cm | val_mape=inf% | val_f1=0.871
+2026-05-27 14:10:14 | INFO     | Epoch  19/400 | train_loss=0.2174 | val_loss=0.3253 | val_mae=0.054cm | val_mape=inf% | val_f1=0.835
+2026-05-27 14:10:15 | INFO     | Epoch  20/400 | train_loss=0.1889 | val_loss=0.3767 | val_mae=0.074cm | val_mape=inf% | val_f1=0.844
+2026-05-27 14:10:15 | INFO     | Epoch  21/400 | train_loss=0.1825 | val_loss=0.8698 | val_mae=0.139cm | val_mape=inf% | val_f1=0.703
+2026-05-27 14:10:16 | INFO     | Epoch  22/400 | train_loss=0.2108 | val_loss=0.4722 | val_mae=0.068cm | val_mape=inf% | val_f1=0.792
+2026-05-27 14:10:17 | INFO     | Epoch  23/400 | train_loss=0.1924 | val_loss=0.3744 | val_mae=0.056cm | val_mape=inf% | val_f1=0.836
+2026-05-27 14:10:18 | INFO     | Epoch  24/400 | train_loss=0.2020 | val_loss=0.3709 | val_mae=0.134cm | val_mape=inf% | val_f1=0.824
+2026-05-27 14:10:19 | INFO     | Epoch  25/400 | train_loss=0.2090 | val_loss=0.4262 | val_mae=0.142cm | val_mape=inf% | val_f1=0.843
+2026-05-27 14:10:20 | INFO     | Epoch  26/400 | train_loss=0.1859 | val_loss=0.3060 | val_mae=0.175cm | val_mape=inf% | val_f1=0.871
+2026-05-27 14:10:21 | INFO     | Epoch  27/400 | train_loss=0.1632 | val_loss=0.5889 | val_mae=0.225cm | val_mape=inf% | val_f1=0.812
+2026-05-27 14:10:22 | INFO     | Epoch  28/400 | train_loss=0.1973 | val_loss=0.2897 | val_mae=0.174cm | val_mape=inf% | val_f1=0.875
+2026-05-27 14:10:22 | INFO     | Epoch  29/400 | train_loss=0.1628 | val_loss=0.4759 | val_mae=0.179cm | val_mape=inf% | val_f1=0.839
+2026-05-27 14:10:23 | INFO     | Epoch  30/400 | train_loss=0.1726 | val_loss=0.4651 | val_mae=0.121cm | val_mape=inf% | val_f1=0.845
+2026-05-27 14:10:24 | INFO     | Epoch  31/400 | train_loss=0.1839 | val_loss=0.4049 | val_mae=0.168cm | val_mape=inf% | val_f1=0.870
+2026-05-27 14:10:25 | INFO     | Epoch  32/400 | train_loss=0.1569 | val_loss=0.4687 | val_mae=0.133cm | val_mape=inf% | val_f1=0.804
+2026-05-27 14:10:26 | INFO     | Epoch  33/400 | train_loss=0.1331 | val_loss=0.3627 | val_mae=0.162cm | val_mape=inf% | val_f1=0.847
+2026-05-27 14:10:27 | INFO     | Epoch  34/400 | train_loss=0.1288 | val_loss=0.4359 | val_mae=0.121cm | val_mape=inf% | val_f1=0.844
+2026-05-27 14:10:28 | INFO     | Epoch  35/400 | train_loss=0.1134 | val_loss=0.4591 | val_mae=0.105cm | val_mape=inf% | val_f1=0.845
+2026-05-27 14:10:29 | INFO     | Epoch  36/400 | train_loss=0.1279 | val_loss=0.4925 | val_mae=0.104cm | val_mape=inf% | val_f1=0.856
+2026-05-27 14:10:30 | INFO     | Epoch  37/400 | train_loss=0.1458 | val_loss=0.4543 | val_mae=0.112cm | val_mape=inf% | val_f1=0.800
+2026-05-27 14:10:30 | INFO     | Epoch  38/400 | train_loss=0.1252 | val_loss=0.4596 | val_mae=0.081cm | val_mape=inf% | val_f1=0.823
+2026-05-27 14:10:31 | INFO     | Epoch  39/400 | train_loss=0.1249 | val_loss=0.4345 | val_mae=0.109cm | val_mape=inf% | val_f1=0.832
+2026-05-27 14:10:32 | INFO     | Epoch  40/400 | train_loss=0.1187 | val_loss=0.5852 | val_mae=0.101cm | val_mape=inf% | val_f1=0.780
+2026-05-27 14:10:33 | INFO     | Epoch  41/400 | train_loss=0.1119 | val_loss=0.4726 | val_mae=0.087cm | val_mape=inf% | val_f1=0.828
+2026-05-27 14:10:34 | INFO     | Epoch  42/400 | train_loss=0.1028 | val_loss=0.4863 | val_mae=0.106cm | val_mape=inf% | val_f1=0.812
+2026-05-27 14:10:35 | INFO     | Epoch  43/400 | train_loss=0.0979 | val_loss=0.5420 | val_mae=0.080cm | val_mape=inf% | val_f1=0.808
+2026-05-27 14:10:36 | INFO     | Epoch  44/400 | train_loss=0.1083 | val_loss=0.5552 | val_mae=0.075cm | val_mape=inf% | val_f1=0.814
+2026-05-27 14:10:37 | INFO     | Epoch  45/400 | train_loss=0.1095 | val_loss=0.5291 | val_mae=0.082cm | val_mape=inf% | val_f1=0.787
+2026-05-27 14:10:38 | INFO     | Epoch  46/400 | train_loss=0.1003 | val_loss=0.6089 | val_mae=0.112cm | val_mape=inf% | val_f1=0.802
+2026-05-27 14:10:38 | INFO     | Epoch  47/400 | train_loss=0.1093 | val_loss=0.5749 | val_mae=0.086cm | val_mape=inf% | val_f1=0.794
+2026-05-27 14:10:39 | INFO     | Epoch  48/400 | train_loss=0.1124 | val_loss=0.4636 | val_mae=0.092cm | val_mape=inf% | val_f1=0.828
+2026-05-27 14:10:40 | INFO     | Epoch  49/400 | train_loss=0.1165 | val_loss=0.5655 | val_mae=0.130cm | val_mape=inf% | val_f1=0.774
+2026-05-27 14:10:41 | INFO     | Epoch  50/400 | train_loss=0.0869 | val_loss=0.5908 | val_mae=0.150cm | val_mape=inf% | val_f1=0.823
+2026-05-27 14:10:42 | INFO     | Epoch  51/400 | train_loss=0.1184 | val_loss=0.5670 | val_mae=0.114cm | val_mape=inf% | val_f1=0.798
+2026-05-27 14:10:43 | INFO     | Epoch  52/400 | train_loss=0.0866 | val_loss=0.5147 | val_mae=0.105cm | val_mape=inf% | val_f1=0.828
+2026-05-27 14:10:44 | INFO     | Epoch  53/400 | train_loss=0.1031 | val_loss=0.7079 | val_mae=0.121cm | val_mape=inf% | val_f1=0.807
+2026-05-27 14:10:45 | INFO     | Epoch  54/400 | train_loss=0.0799 | val_loss=0.5955 | val_mae=0.105cm | val_mape=inf% | val_f1=0.817
+2026-05-27 14:10:45 | INFO     | Epoch  55/400 | train_loss=0.0898 | val_loss=0.5469 | val_mae=0.104cm | val_mape=inf% | val_f1=0.828
+2026-05-27 14:10:46 | INFO     | Epoch  56/400 | train_loss=0.0929 | val_loss=0.5456 | val_mae=0.094cm | val_mape=inf% | val_f1=0.819
+2026-05-27 14:10:47 | INFO     | Epoch  57/400 | train_loss=0.0881 | val_loss=0.6075 | val_mae=0.118cm | val_mape=inf% | val_f1=0.819
+2026-05-27 14:10:48 | INFO     | Epoch  58/400 | train_loss=0.0665 | val_loss=0.6607 | val_mae=0.113cm | val_mape=inf% | val_f1=0.791
+2026-05-27 14:10:49 | INFO     | Epoch  59/400 | train_loss=0.0847 | val_loss=0.5739 | val_mae=0.099cm | val_mape=inf% | val_f1=0.816
+2026-05-27 14:10:49 | INFO     | Epoch  60/400 | train_loss=0.1019 | val_loss=0.7020 | val_mae=0.128cm | val_mape=inf% | val_f1=0.787
+2026-05-27 14:10:50 | INFO     | Epoch  61/400 | train_loss=0.0579 | val_loss=0.6876 | val_mae=0.130cm | val_mape=inf% | val_f1=0.794
+2026-05-27 14:10:51 | INFO     | Epoch  62/400 | train_loss=0.0756 | val_loss=0.6313 | val_mae=0.120cm | val_mape=inf% | val_f1=0.823
+2026-05-27 14:10:51 | INFO     | Epoch  63/400 | train_loss=0.0544 | val_loss=0.7100 | val_mae=0.124cm | val_mape=inf% | val_f1=0.804
+2026-05-27 14:10:52 | INFO     | Epoch  64/400 | train_loss=0.0558 | val_loss=0.6979 | val_mae=0.141cm | val_mape=inf% | val_f1=0.817
+2026-05-27 14:10:53 | INFO     | Epoch  65/400 | train_loss=0.0750 | val_loss=0.7030 | val_mae=0.147cm | val_mape=inf% | val_f1=0.798
+2026-05-27 14:10:54 | INFO     | Epoch  66/400 | train_loss=0.0719 | val_loss=0.7107 | val_mae=0.170cm | val_mape=inf% | val_f1=0.774
+2026-05-27 14:10:54 | INFO     | Epoch  67/400 | train_loss=0.0777 | val_loss=0.7475 | val_mae=0.176cm | val_mape=inf% | val_f1=0.785
+2026-05-27 14:10:55 | INFO     | Epoch  68/400 | train_loss=0.0468 | val_loss=0.8113 | val_mae=0.199cm | val_mape=inf% | val_f1=0.776
+2026-05-27 14:10:56 | INFO     | Epoch  69/400 | train_loss=0.1010 | val_loss=0.6566 | val_mae=0.193cm | val_mape=inf% | val_f1=0.785
+2026-05-27 14:10:57 | INFO     | Epoch  70/400 | train_loss=0.0703 | val_loss=0.7626 | val_mae=0.204cm | val_mape=inf% | val_f1=0.798
+2026-05-27 14:10:57 | INFO     | Epoch  71/400 | train_loss=0.0666 | val_loss=0.6703 | val_mae=0.189cm | val_mape=inf% | val_f1=0.812
+2026-05-27 14:10:57 | INFO     | Early stopping triggered at epoch 71 (no improvement for 60 epochs)
+2026-05-27 14:10:58 | INFO     | --------------------------------------------------------------------------------
+2026-05-27 14:10:58 | INFO     | Training complete. Best val_loss: 0.2315
+2026-05-27 14:10:58 | INFO     | Training figure  : checkpoints\carp_presence_v5_knockdown\20260527_140956\training_summary.png
+2026-05-27 14:10:58 | INFO     | Best checkpoint  : checkpoints\carp_presence_v5_knockdown\20260527_140956\best_model.pt

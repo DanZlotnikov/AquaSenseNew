@@ -1,0 +1,21 @@
+# ── Species ───────────────────────────────────────────────────────────────────
+# "carp"  — uses carp_presence_v5_knockdown + carp_weight_combined_model
+# "bream" — uses bream_presence_v1 + bream_weight_model
+species: bream
+
+# ── Weight model variant (carp only, ignored for bream) ───────────────────────
+# "no_sal"       — standard, no salinity correction
+# "filename_sal" — reads _S400 from filename to apply salinity correction
+weight_variant: no_sal
+
+# ── Input ─────────────────────────────────────────────────────────────────────
+# Path to the CSV recording file to analyse.
+# Can be overridden at runtime with:  python run.py --input path/to/file.csv
+input_file: ""
+
+# ── Output ────────────────────────────────────────────────────────────────────
+results_dir: results
+
+# ── Inference parameters (rarely need changing) ───────────────────────────────
+threshold: 0.5
+batch_size: 256

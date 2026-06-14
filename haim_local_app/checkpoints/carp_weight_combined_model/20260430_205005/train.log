@@ -1,0 +1,417 @@
+2026-04-30 20:50:05 | INFO     | Run ID : 20260430_205005
+2026-04-30 20:50:05 | INFO     | Device : cuda
+2026-04-30 20:50:05 | INFO     | Train samples: 630 | Val samples: 180
+2026-04-30 20:50:05 | INFO     | Model parameters: 54,722
+2026-04-30 20:50:06 | INFO     | Starting training for up to 600 epochs
+2026-04-30 20:50:06 | INFO     | --------------------------------------------------------------------------------
+2026-04-30 20:50:07 | INFO     | Epoch   1/600 | train_loss=47508.1895 | val_loss=47314.1185 | val_mae=973.738cm | val_mape=99.85% | val_f1=0.994  [best]
+2026-04-30 20:50:07 | INFO     | Epoch   2/600 | train_loss=47264.5371 | val_loss=47176.0241 | val_mae=970.977cm | val_mape=99.48% | val_f1=0.989  [best]
+2026-04-30 20:50:07 | INFO     | Epoch   3/600 | train_loss=47043.5945 | val_loss=46999.5879 | val_mae=967.465cm | val_mape=99.02% | val_f1=1.000  [best]
+2026-04-30 20:50:07 | INFO     | Epoch   4/600 | train_loss=46949.4738 | val_loss=46789.0964 | val_mae=963.263cm | val_mape=98.47% | val_f1=1.000  [best]
+2026-04-30 20:50:07 | INFO     | Epoch   5/600 | train_loss=46669.3010 | val_loss=46525.0163 | val_mae=958.030cm | val_mape=97.79% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch   6/600 | train_loss=46426.2646 | val_loss=46228.3796 | val_mae=952.111cm | val_mape=97.02% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch   7/600 | train_loss=46138.1715 | val_loss=45875.7754 | val_mae=945.080cm | val_mape=96.10% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch   8/600 | train_loss=45674.5568 | val_loss=45481.7057 | val_mae=937.177cm | val_mape=95.09% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch   9/600 | train_loss=45378.7803 | val_loss=44984.8971 | val_mae=927.356cm | val_mape=93.82% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch  10/600 | train_loss=44863.0805 | val_loss=44475.1380 | val_mae=917.127cm | val_mape=92.52% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch  11/600 | train_loss=44358.0693 | val_loss=43888.2344 | val_mae=905.413cm | val_mape=90.99% | val_f1=1.000  [best]
+2026-04-30 20:50:08 | INFO     | Epoch  12/600 | train_loss=43846.9139 | val_loss=43219.1784 | val_mae=892.122cm | val_mape=89.23% | val_f1=1.000  [best]
+2026-04-30 20:50:09 | INFO     | Epoch  13/600 | train_loss=42951.8660 | val_loss=42598.5801 | val_mae=879.706cm | val_mape=87.63% | val_f1=1.000  [best]
+2026-04-30 20:50:09 | INFO     | Epoch  14/600 | train_loss=42154.3990 | val_loss=41841.5169 | val_mae=864.678cm | val_mape=85.68% | val_f1=1.000  [best]
+2026-04-30 20:50:09 | INFO     | Epoch  15/600 | train_loss=41603.7785 | val_loss=40871.4785 | val_mae=845.203cm | val_mape=83.08% | val_f1=1.000  [best]
+2026-04-30 20:50:09 | INFO     | Epoch  16/600 | train_loss=40573.5162 | val_loss=40014.4056 | val_mae=828.315cm | val_mape=80.84% | val_f1=1.000  [best]
+2026-04-30 20:50:09 | INFO     | Epoch  17/600 | train_loss=39698.0086 | val_loss=39200.9570 | val_mae=812.261cm | val_mape=78.77% | val_f1=1.000  [best]
+2026-04-30 20:50:09 | INFO     | Epoch  18/600 | train_loss=38900.2195 | val_loss=38136.6465 | val_mae=790.876cm | val_mape=75.98% | val_f1=1.000  [best]
+2026-04-30 20:50:10 | INFO     | Epoch  19/600 | train_loss=37469.2762 | val_loss=36821.5833 | val_mae=764.403cm | val_mape=72.53% | val_f1=1.000  [best]
+2026-04-30 20:50:10 | INFO     | Epoch  20/600 | train_loss=36514.5500 | val_loss=35927.0267 | val_mae=746.578cm | val_mape=70.25% | val_f1=1.000  [best]
+2026-04-30 20:50:10 | INFO     | Epoch  21/600 | train_loss=35124.2462 | val_loss=34514.4076 | val_mae=718.033cm | val_mape=66.51% | val_f1=1.000  [best]
+2026-04-30 20:50:10 | INFO     | Epoch  22/600 | train_loss=33792.5930 | val_loss=32989.3158 | val_mae=687.797cm | val_mape=62.62% | val_f1=1.000  [best]
+2026-04-30 20:50:10 | INFO     | Epoch  23/600 | train_loss=32309.3016 | val_loss=31422.8473 | val_mae=656.423cm | val_mape=58.58% | val_f1=1.000  [best]
+2026-04-30 20:50:10 | INFO     | Epoch  24/600 | train_loss=30913.0964 | val_loss=30000.5199 | val_mae=628.047cm | val_mape=54.94% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  25/600 | train_loss=29584.0230 | val_loss=28425.3161 | val_mae=594.905cm | val_mape=50.81% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  26/600 | train_loss=27769.2896 | val_loss=26893.3223 | val_mae=564.599cm | val_mape=47.79% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  27/600 | train_loss=26844.4544 | val_loss=26092.8470 | val_mae=549.480cm | val_mape=46.93% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  28/600 | train_loss=25488.6355 | val_loss=24451.4580 | val_mae=515.837cm | val_mape=43.78% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  29/600 | train_loss=24300.9205 | val_loss=22523.3301 | val_mae=478.023cm | val_mape=42.37% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  30/600 | train_loss=23123.2667 | val_loss=23251.1475 | val_mae=491.795cm | val_mape=42.54% | val_f1=1.000
+2026-04-30 20:50:11 | INFO     | Epoch  31/600 | train_loss=22027.7543 | val_loss=20300.9678 | val_mae=432.570cm | val_mape=39.76% | val_f1=1.000  [best]
+2026-04-30 20:50:11 | INFO     | Epoch  32/600 | train_loss=20829.9774 | val_loss=21912.4248 | val_mae=464.770cm | val_mape=40.35% | val_f1=1.000
+2026-04-30 20:50:12 | INFO     | Epoch  33/600 | train_loss=20328.1459 | val_loss=18698.5150 | val_mae=400.812cm | val_mape=38.64% | val_f1=1.000  [best]
+2026-04-30 20:50:12 | INFO     | Epoch  34/600 | train_loss=19492.8361 | val_loss=19358.3577 | val_mae=413.640cm | val_mape=37.73% | val_f1=1.000
+2026-04-30 20:50:12 | INFO     | Epoch  35/600 | train_loss=18253.3286 | val_loss=18996.6839 | val_mae=406.240cm | val_mape=37.39% | val_f1=1.000
+2026-04-30 20:50:12 | INFO     | Epoch  36/600 | train_loss=17683.5420 | val_loss=17490.0277 | val_mae=376.081cm | val_mape=36.55% | val_f1=1.000  [best]
+2026-04-30 20:50:12 | INFO     | Epoch  37/600 | train_loss=17353.0973 | val_loss=18605.4652 | val_mae=397.859cm | val_mape=37.02% | val_f1=1.000
+2026-04-30 20:50:12 | INFO     | Epoch  38/600 | train_loss=16644.7520 | val_loss=17069.6151 | val_mae=366.276cm | val_mape=35.64% | val_f1=1.000  [best]
+2026-04-30 20:50:12 | INFO     | Epoch  39/600 | train_loss=16159.3168 | val_loss=16445.3171 | val_mae=353.713cm | val_mape=35.60% | val_f1=1.000  [best]
+2026-04-30 20:50:13 | INFO     | Epoch  40/600 | train_loss=16141.7351 | val_loss=16097.7350 | val_mae=346.843cm | val_mape=35.43% | val_f1=1.000  [best]
+2026-04-30 20:50:13 | INFO     | Epoch  41/600 | train_loss=15251.5674 | val_loss=16149.1763 | val_mae=346.705cm | val_mape=34.99% | val_f1=1.000
+2026-04-30 20:50:13 | INFO     | Epoch  42/600 | train_loss=14871.1616 | val_loss=16736.2834 | val_mae=358.797cm | val_mape=35.62% | val_f1=1.000
+2026-04-30 20:50:13 | INFO     | Epoch  43/600 | train_loss=15274.2201 | val_loss=15180.0348 | val_mae=326.477cm | val_mape=35.51% | val_f1=1.000  [best]
+2026-04-30 20:50:13 | INFO     | Epoch  44/600 | train_loss=14629.6237 | val_loss=16509.0050 | val_mae=354.128cm | val_mape=35.46% | val_f1=1.000
+2026-04-30 20:50:13 | INFO     | Epoch  45/600 | train_loss=14537.4768 | val_loss=15210.8768 | val_mae=327.066cm | val_mape=34.26% | val_f1=1.000
+2026-04-30 20:50:13 | INFO     | Epoch  46/600 | train_loss=13922.9858 | val_loss=15537.5672 | val_mae=333.173cm | val_mape=34.30% | val_f1=1.000
+2026-04-30 20:50:13 | INFO     | Epoch  47/600 | train_loss=13404.2788 | val_loss=15156.6961 | val_mae=326.904cm | val_mape=34.91% | val_f1=1.000  [best]
+2026-04-30 20:50:14 | INFO     | Epoch  48/600 | train_loss=13588.7419 | val_loss=14151.1016 | val_mae=305.219cm | val_mape=34.50% | val_f1=1.000  [best]
+2026-04-30 20:50:14 | INFO     | Epoch  49/600 | train_loss=13217.6214 | val_loss=14119.3104 | val_mae=304.474cm | val_mape=34.14% | val_f1=1.000  [best]
+2026-04-30 20:50:14 | INFO     | Epoch  50/600 | train_loss=12997.7627 | val_loss=14946.5754 | val_mae=322.090cm | val_mape=34.13% | val_f1=1.000
+2026-04-30 20:50:14 | INFO     | Epoch  51/600 | train_loss=13024.8843 | val_loss=14221.2176 | val_mae=308.110cm | val_mape=33.75% | val_f1=1.000
+2026-04-30 20:50:14 | INFO     | Epoch  52/600 | train_loss=12609.7358 | val_loss=13899.7365 | val_mae=301.137cm | val_mape=34.14% | val_f1=1.000  [best]
+2026-04-30 20:50:14 | INFO     | Epoch  53/600 | train_loss=12076.3923 | val_loss=13846.2456 | val_mae=300.501cm | val_mape=35.15% | val_f1=1.000  [best]
+2026-04-30 20:50:14 | INFO     | Epoch  54/600 | train_loss=12004.3746 | val_loss=13510.1203 | val_mae=291.479cm | val_mape=32.10% | val_f1=1.000  [best]
+2026-04-30 20:50:14 | INFO     | Epoch  55/600 | train_loss=12372.9821 | val_loss=13445.6991 | val_mae=290.393cm | val_mape=33.56% | val_f1=1.000  [best]
+2026-04-30 20:50:15 | INFO     | Epoch  56/600 | train_loss=12183.0271 | val_loss=13048.6953 | val_mae=280.563cm | val_mape=33.66% | val_f1=1.000  [best]
+2026-04-30 20:50:15 | INFO     | Epoch  57/600 | train_loss=12021.6283 | val_loss=13548.5988 | val_mae=293.754cm | val_mape=33.42% | val_f1=1.000
+2026-04-30 20:50:15 | INFO     | Epoch  58/600 | train_loss=11667.2862 | val_loss=12749.0368 | val_mae=276.235cm | val_mape=33.93% | val_f1=1.000  [best]
+2026-04-30 20:50:15 | INFO     | Epoch  59/600 | train_loss=11967.7422 | val_loss=13180.4256 | val_mae=284.271cm | val_mape=35.33% | val_f1=1.000
+2026-04-30 20:50:15 | INFO     | Epoch  60/600 | train_loss=11809.3959 | val_loss=12824.9186 | val_mae=279.563cm | val_mape=33.52% | val_f1=1.000
+2026-04-30 20:50:15 | INFO     | Epoch  61/600 | train_loss=11029.0808 | val_loss=13303.7772 | val_mae=289.584cm | val_mape=34.43% | val_f1=1.000
+2026-04-30 20:50:15 | INFO     | Epoch  62/600 | train_loss=11026.6624 | val_loss=12919.6569 | val_mae=280.565cm | val_mape=33.66% | val_f1=1.000
+2026-04-30 20:50:15 | INFO     | Epoch  63/600 | train_loss=11273.9605 | val_loss=12745.6813 | val_mae=277.642cm | val_mape=33.13% | val_f1=1.000  [best]
+2026-04-30 20:50:15 | INFO     | Epoch  64/600 | train_loss=10879.1932 | val_loss=12543.1958 | val_mae=272.486cm | val_mape=32.58% | val_f1=1.000  [best]
+2026-04-30 20:50:15 | INFO     | Epoch  65/600 | train_loss=11711.7140 | val_loss=12293.1110 | val_mae=268.779cm | val_mape=33.66% | val_f1=1.000  [best]
+2026-04-30 20:50:16 | INFO     | Epoch  66/600 | train_loss=11151.6843 | val_loss=13333.1169 | val_mae=289.548cm | val_mape=33.06% | val_f1=1.000
+2026-04-30 20:50:16 | INFO     | Epoch  67/600 | train_loss=10804.8520 | val_loss=11868.5413 | val_mae=260.604cm | val_mape=33.53% | val_f1=1.000  [best]
+2026-04-30 20:50:16 | INFO     | Epoch  68/600 | train_loss=11043.3673 | val_loss=12048.8286 | val_mae=263.488cm | val_mape=31.93% | val_f1=1.000
+2026-04-30 20:50:16 | INFO     | Epoch  69/600 | train_loss=11041.3353 | val_loss=12678.3794 | val_mae=276.954cm | val_mape=33.79% | val_f1=1.000
+2026-04-30 20:50:16 | INFO     | Epoch  70/600 | train_loss=11370.3162 | val_loss=12594.2829 | val_mae=274.905cm | val_mape=35.12% | val_f1=1.000
+2026-04-30 20:50:16 | INFO     | Epoch  71/600 | train_loss=10538.0838 | val_loss=12681.3714 | val_mae=276.591cm | val_mape=35.95% | val_f1=1.000
+2026-04-30 20:50:16 | INFO     | Epoch  72/600 | train_loss=10657.9021 | val_loss=12200.3529 | val_mae=267.002cm | val_mape=32.99% | val_f1=1.000
+2026-04-30 20:50:16 | INFO     | Epoch  73/600 | train_loss=9765.5207 | val_loss=12972.3089 | val_mae=281.808cm | val_mape=33.20% | val_f1=1.000
+2026-04-30 20:50:17 | INFO     | Epoch  74/600 | train_loss=10499.5201 | val_loss=12413.3224 | val_mae=271.466cm | val_mape=32.92% | val_f1=1.000
+2026-04-30 20:50:17 | INFO     | Epoch  75/600 | train_loss=10375.2008 | val_loss=12810.7126 | val_mae=279.931cm | val_mape=35.10% | val_f1=1.000
+2026-04-30 20:50:17 | INFO     | Epoch  76/600 | train_loss=10316.3645 | val_loss=11722.5591 | val_mae=259.555cm | val_mape=33.06% | val_f1=1.000  [best]
+2026-04-30 20:50:17 | INFO     | Epoch  77/600 | train_loss=10135.4489 | val_loss=12163.5037 | val_mae=266.068cm | val_mape=31.59% | val_f1=1.000
+2026-04-30 20:50:17 | INFO     | Epoch  78/600 | train_loss=9928.5876 | val_loss=11810.2155 | val_mae=259.636cm | val_mape=31.67% | val_f1=1.000
+2026-04-30 20:50:17 | INFO     | Epoch  79/600 | train_loss=10090.1653 | val_loss=11694.8714 | val_mae=258.863cm | val_mape=33.30% | val_f1=1.000  [best]
+2026-04-30 20:50:17 | INFO     | Epoch  80/600 | train_loss=10139.0931 | val_loss=12173.3830 | val_mae=267.099cm | val_mape=35.25% | val_f1=1.000
+2026-04-30 20:50:18 | INFO     | Epoch  81/600 | train_loss=10028.0261 | val_loss=12029.1164 | val_mae=262.809cm | val_mape=33.33% | val_f1=1.000
+2026-04-30 20:50:18 | INFO     | Epoch  82/600 | train_loss=9964.0966 | val_loss=11758.2687 | val_mae=258.479cm | val_mape=33.49% | val_f1=1.000
+2026-04-30 20:50:18 | INFO     | Epoch  83/600 | train_loss=9719.0535 | val_loss=13091.8665 | val_mae=287.795cm | val_mape=33.15% | val_f1=1.000
+2026-04-30 20:50:18 | INFO     | Epoch  84/600 | train_loss=9978.7418 | val_loss=11565.8853 | val_mae=255.493cm | val_mape=32.96% | val_f1=1.000  [best]
+2026-04-30 20:50:18 | INFO     | Epoch  85/600 | train_loss=9974.9477 | val_loss=11924.9230 | val_mae=264.096cm | val_mape=35.54% | val_f1=1.000
+2026-04-30 20:50:18 | INFO     | Epoch  86/600 | train_loss=9725.9576 | val_loss=11756.2835 | val_mae=258.238cm | val_mape=35.18% | val_f1=1.000
+2026-04-30 20:50:18 | INFO     | Epoch  87/600 | train_loss=9650.9056 | val_loss=11361.7541 | val_mae=252.324cm | val_mape=33.27% | val_f1=1.000  [best]
+2026-04-30 20:50:19 | INFO     | Epoch  88/600 | train_loss=9649.9728 | val_loss=11882.4583 | val_mae=260.632cm | val_mape=33.82% | val_f1=1.000
+2026-04-30 20:50:19 | INFO     | Epoch  89/600 | train_loss=10074.7302 | val_loss=12241.6434 | val_mae=270.163cm | val_mape=35.47% | val_f1=1.000
+2026-04-30 20:50:19 | INFO     | Epoch  90/600 | train_loss=9916.2052 | val_loss=11117.1986 | val_mae=246.588cm | val_mape=32.39% | val_f1=1.000  [best]
+2026-04-30 20:50:19 | INFO     | Epoch  91/600 | train_loss=9854.0574 | val_loss=11858.8563 | val_mae=260.643cm | val_mape=34.90% | val_f1=1.000
+2026-04-30 20:50:19 | INFO     | Epoch  92/600 | train_loss=9540.0858 | val_loss=11592.7671 | val_mae=255.643cm | val_mape=34.53% | val_f1=1.000
+2026-04-30 20:50:19 | INFO     | Epoch  93/600 | train_loss=9660.2174 | val_loss=11378.0283 | val_mae=252.145cm | val_mape=34.08% | val_f1=1.000
+2026-04-30 20:50:19 | INFO     | Epoch  94/600 | train_loss=9768.2534 | val_loss=10807.5690 | val_mae=238.564cm | val_mape=30.90% | val_f1=1.000  [best]
+2026-04-30 20:50:19 | INFO     | Epoch  95/600 | train_loss=9146.4779 | val_loss=11722.4416 | val_mae=259.482cm | val_mape=33.68% | val_f1=1.000
+2026-04-30 20:50:19 | INFO     | Epoch  96/600 | train_loss=9733.7005 | val_loss=10971.8825 | val_mae=242.967cm | val_mape=32.64% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch  97/600 | train_loss=9184.6219 | val_loss=11852.5788 | val_mae=262.207cm | val_mape=32.21% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch  98/600 | train_loss=9471.2488 | val_loss=11425.7812 | val_mae=254.596cm | val_mape=33.18% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch  99/600 | train_loss=9032.8165 | val_loss=11072.5804 | val_mae=245.382cm | val_mape=32.48% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch 100/600 | train_loss=9294.2815 | val_loss=11350.5848 | val_mae=252.041cm | val_mape=31.96% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch 101/600 | train_loss=9042.4554 | val_loss=11026.0617 | val_mae=245.949cm | val_mape=31.61% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch 102/600 | train_loss=9170.7216 | val_loss=10880.7861 | val_mae=243.308cm | val_mape=32.01% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch 103/600 | train_loss=9607.1906 | val_loss=10733.3722 | val_mae=239.670cm | val_mape=31.76% | val_f1=1.000  [best]
+2026-04-30 20:50:20 | INFO     | Epoch 104/600 | train_loss=9470.5438 | val_loss=10929.9015 | val_mae=243.809cm | val_mape=31.79% | val_f1=1.000
+2026-04-30 20:50:20 | INFO     | Epoch 105/600 | train_loss=9032.0292 | val_loss=11244.3893 | val_mae=249.065cm | val_mape=32.41% | val_f1=1.000
+2026-04-30 20:50:21 | INFO     | Epoch 106/600 | train_loss=9298.5288 | val_loss=10866.4526 | val_mae=242.371cm | val_mape=29.73% | val_f1=1.000
+2026-04-30 20:50:21 | INFO     | Epoch 107/600 | train_loss=9404.9406 | val_loss=11300.0921 | val_mae=251.880cm | val_mape=32.29% | val_f1=1.000
+2026-04-30 20:50:21 | INFO     | Epoch 108/600 | train_loss=9578.2587 | val_loss=10897.6888 | val_mae=243.445cm | val_mape=31.36% | val_f1=1.000
+2026-04-30 20:50:21 | INFO     | Epoch 109/600 | train_loss=9170.4316 | val_loss=10526.8638 | val_mae=235.555cm | val_mape=29.35% | val_f1=1.000  [best]
+2026-04-30 20:50:21 | INFO     | Epoch 110/600 | train_loss=8674.8949 | val_loss=10773.1255 | val_mae=239.244cm | val_mape=30.37% | val_f1=1.000
+2026-04-30 20:50:21 | INFO     | Epoch 111/600 | train_loss=8752.7459 | val_loss=10499.1356 | val_mae=234.409cm | val_mape=32.01% | val_f1=1.000  [best]
+2026-04-30 20:50:21 | INFO     | Epoch 112/600 | train_loss=8646.0824 | val_loss=11573.9453 | val_mae=256.336cm | val_mape=33.38% | val_f1=1.000
+2026-04-30 20:50:21 | INFO     | Epoch 113/600 | train_loss=8773.1882 | val_loss=11534.7179 | val_mae=254.795cm | val_mape=34.23% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 114/600 | train_loss=8908.2536 | val_loss=11313.2031 | val_mae=251.285cm | val_mape=31.48% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 115/600 | train_loss=9202.4873 | val_loss=12114.2632 | val_mae=266.787cm | val_mape=34.18% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 116/600 | train_loss=9477.6051 | val_loss=11413.1037 | val_mae=253.177cm | val_mape=32.64% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 117/600 | train_loss=8890.1008 | val_loss=10591.8672 | val_mae=236.043cm | val_mape=31.94% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 118/600 | train_loss=8964.8708 | val_loss=10722.7687 | val_mae=239.123cm | val_mape=31.16% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 119/600 | train_loss=8584.2978 | val_loss=10853.0558 | val_mae=242.081cm | val_mape=30.68% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 120/600 | train_loss=8652.7760 | val_loss=10651.0024 | val_mae=237.485cm | val_mape=32.13% | val_f1=1.000
+2026-04-30 20:50:22 | INFO     | Epoch 121/600 | train_loss=8279.0504 | val_loss=10241.8088 | val_mae=229.017cm | val_mape=31.38% | val_f1=1.000  [best]
+2026-04-30 20:50:23 | INFO     | Epoch 122/600 | train_loss=9017.0443 | val_loss=10521.4805 | val_mae=234.989cm | val_mape=30.36% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 123/600 | train_loss=9263.5444 | val_loss=10519.7380 | val_mae=234.122cm | val_mape=31.30% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 124/600 | train_loss=8649.6003 | val_loss=10358.9866 | val_mae=231.815cm | val_mape=29.87% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 125/600 | train_loss=8743.5507 | val_loss=10840.1929 | val_mae=241.015cm | val_mape=29.84% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 126/600 | train_loss=8648.3295 | val_loss=10690.3138 | val_mae=238.315cm | val_mape=31.77% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 127/600 | train_loss=8272.2898 | val_loss=10485.7554 | val_mae=235.293cm | val_mape=31.45% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 128/600 | train_loss=8972.3465 | val_loss=10929.0238 | val_mae=243.386cm | val_mape=33.36% | val_f1=1.000
+2026-04-30 20:50:23 | INFO     | Epoch 129/600 | train_loss=8998.1776 | val_loss=10165.0597 | val_mae=228.094cm | val_mape=31.21% | val_f1=1.000  [best]
+2026-04-30 20:50:23 | INFO     | Epoch 130/600 | train_loss=8924.0237 | val_loss=10942.3424 | val_mae=243.896cm | val_mape=31.29% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 131/600 | train_loss=8795.2821 | val_loss=10018.1652 | val_mae=224.864cm | val_mape=30.02% | val_f1=1.000  [best]
+2026-04-30 20:50:24 | INFO     | Epoch 132/600 | train_loss=8814.8874 | val_loss=10115.7508 | val_mae=226.558cm | val_mape=30.45% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 133/600 | train_loss=8227.9337 | val_loss=10977.5055 | val_mae=242.792cm | val_mape=31.93% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 134/600 | train_loss=8016.8356 | val_loss=10023.2140 | val_mae=224.424cm | val_mape=30.22% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 135/600 | train_loss=8204.7960 | val_loss=10944.7956 | val_mae=243.728cm | val_mape=30.83% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 136/600 | train_loss=8075.9836 | val_loss=10305.8849 | val_mae=229.509cm | val_mape=30.45% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 137/600 | train_loss=8578.1217 | val_loss=10477.4481 | val_mae=234.681cm | val_mape=31.43% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 138/600 | train_loss=7958.7218 | val_loss=10178.5317 | val_mae=228.584cm | val_mape=30.66% | val_f1=1.000
+2026-04-30 20:50:24 | INFO     | Epoch 139/600 | train_loss=7811.6223 | val_loss=10776.6711 | val_mae=239.816cm | val_mape=30.13% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 140/600 | train_loss=8749.3995 | val_loss=10621.0924 | val_mae=236.054cm | val_mape=30.66% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 141/600 | train_loss=8496.5620 | val_loss=10930.4201 | val_mae=242.965cm | val_mape=32.36% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 142/600 | train_loss=8311.4365 | val_loss=10827.8978 | val_mae=241.344cm | val_mape=30.18% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 143/600 | train_loss=8219.3667 | val_loss=10182.1170 | val_mae=227.371cm | val_mape=30.89% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 144/600 | train_loss=8010.5710 | val_loss=10813.7507 | val_mae=241.996cm | val_mape=33.53% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 145/600 | train_loss=8132.6650 | val_loss=9872.6935 | val_mae=221.854cm | val_mape=30.23% | val_f1=1.000  [best]
+2026-04-30 20:50:25 | INFO     | Epoch 146/600 | train_loss=8284.9983 | val_loss=10135.3462 | val_mae=227.123cm | val_mape=29.22% | val_f1=1.000
+2026-04-30 20:50:25 | INFO     | Epoch 147/600 | train_loss=8237.1924 | val_loss=10605.8011 | val_mae=237.841cm | val_mape=31.42% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 148/600 | train_loss=8789.5240 | val_loss=10575.2926 | val_mae=236.597cm | val_mape=30.27% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 149/600 | train_loss=8405.1623 | val_loss=10782.1522 | val_mae=240.738cm | val_mape=32.50% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 150/600 | train_loss=8371.4618 | val_loss=10787.2370 | val_mae=239.503cm | val_mape=31.35% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 151/600 | train_loss=8560.1862 | val_loss=10706.5314 | val_mae=239.669cm | val_mape=30.62% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 152/600 | train_loss=8240.8129 | val_loss=10799.8442 | val_mae=239.568cm | val_mape=32.82% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 153/600 | train_loss=8465.9078 | val_loss=10284.3511 | val_mae=229.252cm | val_mape=30.12% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 154/600 | train_loss=7816.6689 | val_loss=10453.9334 | val_mae=233.008cm | val_mape=30.43% | val_f1=1.000
+2026-04-30 20:50:26 | INFO     | Epoch 155/600 | train_loss=7702.9460 | val_loss=10547.5382 | val_mae=233.985cm | val_mape=32.09% | val_f1=1.000
+2026-04-30 20:50:27 | INFO     | Epoch 156/600 | train_loss=8207.1384 | val_loss=10520.3564 | val_mae=234.297cm | val_mape=30.07% | val_f1=1.000
+2026-04-30 20:50:27 | INFO     | Epoch 157/600 | train_loss=8439.1411 | val_loss=10227.9793 | val_mae=228.331cm | val_mape=29.85% | val_f1=1.000
+2026-04-30 20:50:27 | INFO     | Epoch 158/600 | train_loss=8203.4747 | val_loss=9865.7671 | val_mae=221.641cm | val_mape=29.41% | val_f1=1.000  [best]
+2026-04-30 20:50:27 | INFO     | Epoch 159/600 | train_loss=8497.1658 | val_loss=9998.3473 | val_mae=223.990cm | val_mape=29.85% | val_f1=1.000
+2026-04-30 20:50:27 | INFO     | Epoch 160/600 | train_loss=8237.8641 | val_loss=9822.3472 | val_mae=220.264cm | val_mape=30.91% | val_f1=1.000  [best]
+2026-04-30 20:50:27 | INFO     | Epoch 161/600 | train_loss=8553.6913 | val_loss=10890.5771 | val_mae=241.727cm | val_mape=30.14% | val_f1=1.000
+2026-04-30 20:50:27 | INFO     | Epoch 162/600 | train_loss=7999.9042 | val_loss=10489.9870 | val_mae=233.360cm | val_mape=29.89% | val_f1=1.000
+2026-04-30 20:50:27 | INFO     | Epoch 163/600 | train_loss=8209.8752 | val_loss=10482.4771 | val_mae=232.628cm | val_mape=31.00% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 164/600 | train_loss=7863.5867 | val_loss=10108.1883 | val_mae=224.940cm | val_mape=30.67% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 165/600 | train_loss=8249.6274 | val_loss=10454.9945 | val_mae=233.314cm | val_mape=30.65% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 166/600 | train_loss=7590.4153 | val_loss=10423.1047 | val_mae=233.088cm | val_mape=30.08% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 167/600 | train_loss=8620.7180 | val_loss=10196.6056 | val_mae=228.168cm | val_mape=30.40% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 168/600 | train_loss=7809.7496 | val_loss=10617.9157 | val_mae=235.518cm | val_mape=31.51% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 169/600 | train_loss=7201.0428 | val_loss=10193.6947 | val_mae=228.424cm | val_mape=28.89% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 170/600 | train_loss=8498.0131 | val_loss=11131.1794 | val_mae=245.789cm | val_mape=34.30% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 171/600 | train_loss=7930.5350 | val_loss=9984.7640 | val_mae=222.566cm | val_mape=30.46% | val_f1=1.000
+2026-04-30 20:50:28 | INFO     | Epoch 172/600 | train_loss=7590.3807 | val_loss=10432.5529 | val_mae=233.782cm | val_mape=29.99% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 173/600 | train_loss=7910.9944 | val_loss=10276.5461 | val_mae=230.609cm | val_mape=29.16% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 174/600 | train_loss=8323.3565 | val_loss=10050.4113 | val_mae=225.448cm | val_mape=29.34% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 175/600 | train_loss=7855.9726 | val_loss=9789.6973 | val_mae=219.003cm | val_mape=30.62% | val_f1=1.000  [best]
+2026-04-30 20:50:29 | INFO     | Epoch 176/600 | train_loss=8070.9934 | val_loss=10039.1953 | val_mae=226.362cm | val_mape=29.85% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 177/600 | train_loss=7652.4896 | val_loss=10327.7036 | val_mae=230.795cm | val_mape=30.68% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 178/600 | train_loss=7746.0256 | val_loss=10300.5728 | val_mae=230.968cm | val_mape=31.45% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 179/600 | train_loss=7444.1540 | val_loss=9998.4580 | val_mae=224.608cm | val_mape=29.84% | val_f1=1.000
+2026-04-30 20:50:29 | INFO     | Epoch 180/600 | train_loss=7416.4301 | val_loss=10657.7036 | val_mae=236.446cm | val_mape=30.63% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 181/600 | train_loss=7620.7053 | val_loss=10833.7889 | val_mae=241.613cm | val_mape=33.99% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 182/600 | train_loss=8038.6789 | val_loss=10487.7166 | val_mae=233.264cm | val_mape=30.52% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 183/600 | train_loss=8369.6652 | val_loss=10164.5028 | val_mae=226.523cm | val_mape=31.71% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 184/600 | train_loss=7801.2833 | val_loss=10766.8931 | val_mae=240.473cm | val_mape=30.01% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 185/600 | train_loss=7601.9249 | val_loss=9914.7479 | val_mae=221.998cm | val_mape=30.57% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 186/600 | train_loss=7335.2273 | val_loss=9968.8460 | val_mae=224.242cm | val_mape=29.94% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 187/600 | train_loss=7465.6002 | val_loss=11209.3882 | val_mae=247.217cm | val_mape=32.74% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 188/600 | train_loss=7656.5080 | val_loss=10220.0179 | val_mae=227.442cm | val_mape=30.91% | val_f1=1.000
+2026-04-30 20:50:30 | INFO     | Epoch 189/600 | train_loss=7622.8403 | val_loss=10472.5244 | val_mae=231.920cm | val_mape=30.49% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 190/600 | train_loss=7718.7986 | val_loss=10232.6370 | val_mae=228.710cm | val_mape=29.91% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 191/600 | train_loss=7874.7359 | val_loss=10055.1696 | val_mae=224.758cm | val_mape=31.16% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 192/600 | train_loss=7868.9797 | val_loss=10993.3167 | val_mae=242.677cm | val_mape=34.32% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 193/600 | train_loss=7667.7520 | val_loss=10282.8390 | val_mae=228.796cm | val_mape=30.08% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 194/600 | train_loss=7113.1807 | val_loss=9685.9844 | val_mae=217.334cm | val_mape=29.28% | val_f1=1.000  [best]
+2026-04-30 20:50:31 | INFO     | Epoch 195/600 | train_loss=7451.6274 | val_loss=10010.5892 | val_mae=224.774cm | val_mape=28.28% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 196/600 | train_loss=7091.9220 | val_loss=10285.3711 | val_mae=229.675cm | val_mape=30.50% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 197/600 | train_loss=7176.7969 | val_loss=10325.8363 | val_mae=229.222cm | val_mape=30.42% | val_f1=1.000
+2026-04-30 20:50:31 | INFO     | Epoch 198/600 | train_loss=7441.3629 | val_loss=9987.7638 | val_mae=224.260cm | val_mape=29.96% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 199/600 | train_loss=8017.1789 | val_loss=10283.5332 | val_mae=230.635cm | val_mape=28.82% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 200/600 | train_loss=7671.8814 | val_loss=10039.1201 | val_mae=224.201cm | val_mape=30.82% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 201/600 | train_loss=7449.1760 | val_loss=10489.0168 | val_mae=233.451cm | val_mape=32.51% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 202/600 | train_loss=7834.5455 | val_loss=10240.2158 | val_mae=228.188cm | val_mape=30.94% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 203/600 | train_loss=8226.4942 | val_loss=10416.1611 | val_mae=232.818cm | val_mape=30.16% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 204/600 | train_loss=7721.1035 | val_loss=10260.2743 | val_mae=229.431cm | val_mape=30.67% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 205/600 | train_loss=7158.0265 | val_loss=9662.0555 | val_mae=217.691cm | val_mape=28.18% | val_f1=1.000  [best]
+2026-04-30 20:50:32 | INFO     | Epoch 206/600 | train_loss=7169.3662 | val_loss=10277.5607 | val_mae=227.855cm | val_mape=31.25% | val_f1=1.000
+2026-04-30 20:50:32 | INFO     | Epoch 207/600 | train_loss=7542.1125 | val_loss=9668.0560 | val_mae=217.778cm | val_mape=29.63% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 208/600 | train_loss=7685.8693 | val_loss=10002.1418 | val_mae=224.239cm | val_mape=29.21% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 209/600 | train_loss=7933.7698 | val_loss=10123.2054 | val_mae=225.973cm | val_mape=30.15% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 210/600 | train_loss=7605.1273 | val_loss=9960.5452 | val_mae=222.700cm | val_mape=28.80% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 211/600 | train_loss=7402.7230 | val_loss=10666.5024 | val_mae=236.550cm | val_mape=30.27% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 212/600 | train_loss=7335.5108 | val_loss=10163.8504 | val_mae=227.069cm | val_mape=31.76% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 213/600 | train_loss=7332.4992 | val_loss=10390.5745 | val_mae=231.422cm | val_mape=29.95% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 214/600 | train_loss=6952.0914 | val_loss=10467.0221 | val_mae=234.398cm | val_mape=30.32% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 215/600 | train_loss=7280.6446 | val_loss=10844.0692 | val_mae=241.389cm | val_mape=30.43% | val_f1=1.000
+2026-04-30 20:50:33 | INFO     | Epoch 216/600 | train_loss=7814.8788 | val_loss=9885.0353 | val_mae=222.336cm | val_mape=29.36% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 217/600 | train_loss=7827.3785 | val_loss=10262.6942 | val_mae=228.393cm | val_mape=31.06% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 218/600 | train_loss=7329.9733 | val_loss=10336.2886 | val_mae=229.844cm | val_mape=30.87% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 219/600 | train_loss=7528.9789 | val_loss=10151.5492 | val_mae=228.672cm | val_mape=30.09% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 220/600 | train_loss=7951.9253 | val_loss=9830.2581 | val_mae=221.054cm | val_mape=30.06% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 221/600 | train_loss=7712.3888 | val_loss=10387.4924 | val_mae=230.527cm | val_mape=31.94% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 222/600 | train_loss=7103.4198 | val_loss=10130.3374 | val_mae=226.158cm | val_mape=28.72% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 223/600 | train_loss=6888.1628 | val_loss=10155.6685 | val_mae=227.373cm | val_mape=31.15% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 224/600 | train_loss=8138.1445 | val_loss=10029.9279 | val_mae=224.145cm | val_mape=31.26% | val_f1=1.000
+2026-04-30 20:50:34 | INFO     | Epoch 225/600 | train_loss=7243.1111 | val_loss=9627.4297 | val_mae=215.405cm | val_mape=28.69% | val_f1=1.000  [best]
+2026-04-30 20:50:35 | INFO     | Epoch 226/600 | train_loss=7865.8651 | val_loss=9844.8900 | val_mae=220.345cm | val_mape=28.55% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 227/600 | train_loss=7264.5946 | val_loss=10143.2677 | val_mae=227.735cm | val_mape=29.58% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 228/600 | train_loss=7243.5636 | val_loss=10188.6211 | val_mae=227.173cm | val_mape=31.42% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 229/600 | train_loss=7131.9768 | val_loss=10155.3366 | val_mae=228.300cm | val_mape=28.26% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 230/600 | train_loss=7819.5196 | val_loss=9654.6515 | val_mae=218.575cm | val_mape=29.46% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 231/600 | train_loss=7057.7136 | val_loss=10049.3586 | val_mae=225.404cm | val_mape=29.69% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 232/600 | train_loss=6788.1886 | val_loss=9764.2074 | val_mae=220.252cm | val_mape=29.80% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 233/600 | train_loss=7131.0796 | val_loss=10380.5023 | val_mae=230.259cm | val_mape=30.99% | val_f1=1.000
+2026-04-30 20:50:35 | INFO     | Epoch 234/600 | train_loss=7666.3652 | val_loss=10395.9759 | val_mae=230.997cm | val_mape=30.66% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 235/600 | train_loss=7398.7452 | val_loss=9880.9451 | val_mae=221.728cm | val_mape=30.65% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 236/600 | train_loss=7152.6127 | val_loss=9634.8088 | val_mae=216.143cm | val_mape=28.34% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 237/600 | train_loss=7372.1122 | val_loss=10147.5964 | val_mae=226.206cm | val_mape=28.89% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 238/600 | train_loss=7473.8636 | val_loss=10825.7819 | val_mae=241.078cm | val_mape=33.10% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 239/600 | train_loss=7329.5403 | val_loss=10045.1828 | val_mae=225.359cm | val_mape=28.57% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 240/600 | train_loss=7391.4205 | val_loss=10355.9521 | val_mae=231.359cm | val_mape=31.34% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 241/600 | train_loss=7003.8144 | val_loss=10428.1006 | val_mae=233.399cm | val_mape=31.59% | val_f1=1.000
+2026-04-30 20:50:36 | INFO     | Epoch 242/600 | train_loss=6944.8872 | val_loss=10083.3184 | val_mae=226.515cm | val_mape=30.30% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 243/600 | train_loss=7135.4206 | val_loss=10066.1455 | val_mae=225.978cm | val_mape=29.84% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 244/600 | train_loss=6984.3159 | val_loss=9964.1138 | val_mae=224.511cm | val_mape=30.29% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 245/600 | train_loss=6797.3081 | val_loss=10510.5985 | val_mae=233.598cm | val_mape=29.76% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 246/600 | train_loss=6748.8737 | val_loss=10599.1660 | val_mae=235.261cm | val_mape=30.64% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 247/600 | train_loss=6711.1945 | val_loss=9976.9551 | val_mae=222.953cm | val_mape=30.45% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 248/600 | train_loss=6677.8154 | val_loss=9943.2004 | val_mae=222.504cm | val_mape=28.83% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 249/600 | train_loss=7262.1070 | val_loss=9847.3506 | val_mae=220.541cm | val_mape=27.56% | val_f1=1.000
+2026-04-30 20:50:37 | INFO     | Epoch 250/600 | train_loss=6974.0068 | val_loss=9682.2062 | val_mae=218.302cm | val_mape=28.95% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 251/600 | train_loss=6936.8132 | val_loss=9907.1178 | val_mae=221.475cm | val_mape=30.01% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 252/600 | train_loss=7353.0906 | val_loss=9992.5679 | val_mae=223.432cm | val_mape=29.43% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 253/600 | train_loss=7466.4125 | val_loss=10003.3589 | val_mae=223.322cm | val_mape=29.23% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 254/600 | train_loss=6751.0721 | val_loss=10569.3161 | val_mae=235.061cm | val_mape=28.80% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 255/600 | train_loss=7290.1230 | val_loss=10542.6255 | val_mae=234.586cm | val_mape=32.31% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 256/600 | train_loss=7356.1539 | val_loss=9856.6221 | val_mae=222.170cm | val_mape=28.97% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 257/600 | train_loss=6812.2984 | val_loss=9887.3983 | val_mae=221.485cm | val_mape=30.20% | val_f1=1.000
+2026-04-30 20:50:38 | INFO     | Epoch 258/600 | train_loss=7254.5294 | val_loss=9618.9229 | val_mae=217.119cm | val_mape=29.70% | val_f1=1.000  [best]
+2026-04-30 20:50:38 | INFO     | Epoch 259/600 | train_loss=7210.9935 | val_loss=10010.2293 | val_mae=224.531cm | val_mape=29.52% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 260/600 | train_loss=6241.9241 | val_loss=9787.4194 | val_mae=219.930cm | val_mape=29.49% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 261/600 | train_loss=6519.9024 | val_loss=9753.3000 | val_mae=219.001cm | val_mape=28.90% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 262/600 | train_loss=6757.4511 | val_loss=9674.5047 | val_mae=217.332cm | val_mape=29.85% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 263/600 | train_loss=6668.0930 | val_loss=10153.1294 | val_mae=226.149cm | val_mape=30.85% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 264/600 | train_loss=6409.6984 | val_loss=9832.9660 | val_mae=219.581cm | val_mape=29.82% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 265/600 | train_loss=6541.2513 | val_loss=9941.2663 | val_mae=222.846cm | val_mape=29.22% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 266/600 | train_loss=6877.7121 | val_loss=9755.8428 | val_mae=219.313cm | val_mape=28.47% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 267/600 | train_loss=6048.1106 | val_loss=9897.0881 | val_mae=223.034cm | val_mape=29.78% | val_f1=1.000
+2026-04-30 20:50:39 | INFO     | Epoch 268/600 | train_loss=6786.8407 | val_loss=9981.0698 | val_mae=223.324cm | val_mape=29.65% | val_f1=1.000
+2026-04-30 20:50:40 | INFO     | Epoch 269/600 | train_loss=6536.2880 | val_loss=9503.0916 | val_mae=213.805cm | val_mape=28.77% | val_f1=1.000  [best]
+2026-04-30 20:50:40 | INFO     | Epoch 270/600 | train_loss=6727.0268 | val_loss=9524.2386 | val_mae=214.495cm | val_mape=29.26% | val_f1=1.000
+2026-04-30 20:50:40 | INFO     | Epoch 271/600 | train_loss=6419.9959 | val_loss=9841.2936 | val_mae=221.710cm | val_mape=28.08% | val_f1=1.000
+2026-04-30 20:50:40 | INFO     | Epoch 272/600 | train_loss=6409.7228 | val_loss=10167.2834 | val_mae=227.962cm | val_mape=29.84% | val_f1=1.000
+2026-04-30 20:50:40 | INFO     | Epoch 273/600 | train_loss=7039.8822 | val_loss=9493.3444 | val_mae=214.074cm | val_mape=29.02% | val_f1=1.000  [best]
+2026-04-30 20:50:40 | INFO     | Epoch 274/600 | train_loss=6037.4145 | val_loss=9426.0366 | val_mae=212.665cm | val_mape=29.26% | val_f1=1.000  [best]
+2026-04-30 20:50:40 | INFO     | Epoch 275/600 | train_loss=6380.3652 | val_loss=9760.1685 | val_mae=219.479cm | val_mape=29.63% | val_f1=1.000
+2026-04-30 20:50:40 | INFO     | Epoch 276/600 | train_loss=6250.0539 | val_loss=9883.2466 | val_mae=222.052cm | val_mape=29.42% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 277/600 | train_loss=6647.2574 | val_loss=10023.7583 | val_mae=225.991cm | val_mape=29.71% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 278/600 | train_loss=6515.1509 | val_loss=10528.4653 | val_mae=234.492cm | val_mape=30.10% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 279/600 | train_loss=6301.6720 | val_loss=10039.3452 | val_mae=224.019cm | val_mape=29.47% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 280/600 | train_loss=6941.1531 | val_loss=10296.5072 | val_mae=230.593cm | val_mape=31.31% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 281/600 | train_loss=6400.1600 | val_loss=10301.0583 | val_mae=230.611cm | val_mape=29.25% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 282/600 | train_loss=6016.9147 | val_loss=10106.0594 | val_mae=225.813cm | val_mape=29.85% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 283/600 | train_loss=6537.8766 | val_loss=9994.1652 | val_mae=224.245cm | val_mape=31.11% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 284/600 | train_loss=6577.0680 | val_loss=9675.3223 | val_mae=217.610cm | val_mape=29.11% | val_f1=1.000
+2026-04-30 20:50:41 | INFO     | Epoch 285/600 | train_loss=6261.1942 | val_loss=9492.9351 | val_mae=214.524cm | val_mape=28.35% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 286/600 | train_loss=6397.0815 | val_loss=10008.7472 | val_mae=225.042cm | val_mape=29.35% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 287/600 | train_loss=6112.5406 | val_loss=9622.3572 | val_mae=218.208cm | val_mape=28.49% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 288/600 | train_loss=6428.0151 | val_loss=9984.0251 | val_mae=225.040cm | val_mape=29.70% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 289/600 | train_loss=6170.0418 | val_loss=10302.6772 | val_mae=230.924cm | val_mape=31.12% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 290/600 | train_loss=6646.6609 | val_loss=9976.8151 | val_mae=225.047cm | val_mape=29.91% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 291/600 | train_loss=6190.3707 | val_loss=9771.6717 | val_mae=220.703cm | val_mape=28.96% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 292/600 | train_loss=6317.9351 | val_loss=9762.6398 | val_mae=220.301cm | val_mape=29.74% | val_f1=1.000
+2026-04-30 20:50:42 | INFO     | Epoch 293/600 | train_loss=6611.7158 | val_loss=10114.8278 | val_mae=226.111cm | val_mape=30.26% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 294/600 | train_loss=6628.0956 | val_loss=10253.3499 | val_mae=229.289cm | val_mape=30.75% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 295/600 | train_loss=5926.4328 | val_loss=10126.0635 | val_mae=226.352cm | val_mape=28.87% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 296/600 | train_loss=7182.8586 | val_loss=10024.2614 | val_mae=224.295cm | val_mape=30.96% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 297/600 | train_loss=5921.6212 | val_loss=9803.5392 | val_mae=220.342cm | val_mape=29.28% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 298/600 | train_loss=5690.8025 | val_loss=9546.1673 | val_mae=214.757cm | val_mape=28.51% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 299/600 | train_loss=6539.3137 | val_loss=9741.4806 | val_mae=220.000cm | val_mape=29.04% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 300/600 | train_loss=6156.2273 | val_loss=9887.9824 | val_mae=222.131cm | val_mape=29.85% | val_f1=1.000
+2026-04-30 20:50:43 | INFO     | Epoch 301/600 | train_loss=6790.0256 | val_loss=9927.9803 | val_mae=224.281cm | val_mape=28.95% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 302/600 | train_loss=6372.1036 | val_loss=9769.3820 | val_mae=218.688cm | val_mape=28.73% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 303/600 | train_loss=6093.6222 | val_loss=9421.8618 | val_mae=212.553cm | val_mape=28.56% | val_f1=1.000  [best]
+2026-04-30 20:50:44 | INFO     | Epoch 304/600 | train_loss=5983.7053 | val_loss=9742.0898 | val_mae=217.675cm | val_mape=28.96% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 305/600 | train_loss=6167.4760 | val_loss=9588.2209 | val_mae=216.489cm | val_mape=28.41% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 306/600 | train_loss=6327.5102 | val_loss=9369.7920 | val_mae=212.318cm | val_mape=27.93% | val_f1=1.000  [best]
+2026-04-30 20:50:44 | INFO     | Epoch 307/600 | train_loss=6143.9452 | val_loss=9816.9886 | val_mae=220.194cm | val_mape=29.35% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 308/600 | train_loss=6144.4877 | val_loss=9797.7127 | val_mae=219.885cm | val_mape=28.96% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 309/600 | train_loss=6624.3430 | val_loss=9575.7546 | val_mae=214.947cm | val_mape=28.49% | val_f1=1.000
+2026-04-30 20:50:44 | INFO     | Epoch 310/600 | train_loss=6019.5120 | val_loss=9598.1136 | val_mae=216.073cm | val_mape=29.30% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 311/600 | train_loss=6837.1098 | val_loss=9728.7531 | val_mae=218.141cm | val_mape=28.45% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 312/600 | train_loss=6103.8730 | val_loss=9441.6834 | val_mae=213.587cm | val_mape=28.40% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 313/600 | train_loss=6117.2307 | val_loss=9490.8328 | val_mae=214.184cm | val_mape=28.24% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 314/600 | train_loss=6641.9242 | val_loss=9785.0801 | val_mae=219.523cm | val_mape=28.72% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 315/600 | train_loss=6140.2028 | val_loss=9592.7131 | val_mae=216.456cm | val_mape=28.74% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 316/600 | train_loss=6751.7337 | val_loss=10090.1243 | val_mae=225.501cm | val_mape=30.28% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 317/600 | train_loss=6069.9585 | val_loss=9677.1750 | val_mae=217.038cm | val_mape=28.41% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 318/600 | train_loss=6320.5653 | val_loss=10041.1068 | val_mae=225.079cm | val_mape=30.04% | val_f1=1.000
+2026-04-30 20:50:45 | INFO     | Epoch 319/600 | train_loss=6423.4582 | val_loss=9955.7804 | val_mae=223.593cm | val_mape=28.41% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 320/600 | train_loss=6624.9990 | val_loss=9777.0907 | val_mae=219.971cm | val_mape=29.07% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 321/600 | train_loss=5695.0556 | val_loss=9913.0579 | val_mae=222.664cm | val_mape=28.87% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 322/600 | train_loss=6236.3884 | val_loss=10118.1301 | val_mae=225.845cm | val_mape=29.06% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 323/600 | train_loss=5898.4598 | val_loss=9809.4712 | val_mae=221.148cm | val_mape=29.63% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 324/600 | train_loss=6480.0356 | val_loss=9979.7728 | val_mae=224.210cm | val_mape=29.68% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 325/600 | train_loss=6490.2124 | val_loss=9835.6318 | val_mae=221.690cm | val_mape=29.73% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 326/600 | train_loss=6301.1857 | val_loss=9978.2365 | val_mae=223.827cm | val_mape=29.05% | val_f1=1.000
+2026-04-30 20:50:46 | INFO     | Epoch 327/600 | train_loss=6490.4263 | val_loss=10130.3940 | val_mae=227.113cm | val_mape=30.41% | val_f1=1.000
+2026-04-30 20:50:47 | INFO     | Epoch 328/600 | train_loss=6149.2708 | val_loss=10072.0378 | val_mae=226.707cm | val_mape=30.10% | val_f1=1.000
+2026-04-30 20:50:47 | INFO     | Epoch 329/600 | train_loss=6090.5931 | val_loss=10074.2030 | val_mae=226.288cm | val_mape=29.74% | val_f1=1.000
+2026-04-30 20:50:47 | INFO     | Epoch 330/600 | train_loss=6286.8857 | val_loss=9971.4295 | val_mae=223.283cm | val_mape=28.84% | val_f1=1.000
+2026-04-30 20:50:47 | INFO     | Epoch 331/600 | train_loss=6315.7671 | val_loss=9973.1016 | val_mae=223.891cm | val_mape=29.93% | val_f1=1.000
+2026-04-30 20:50:47 | INFO     | Epoch 332/600 | train_loss=6749.2642 | val_loss=9764.1199 | val_mae=221.212cm | val_mape=28.93% | val_f1=1.000
+2026-04-30 20:50:47 | INFO     | Epoch 333/600 | train_loss=6546.6064 | val_loss=9988.2450 | val_mae=225.353cm | val_mape=29.78% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 334/600 | train_loss=6173.5312 | val_loss=10127.8291 | val_mae=228.482cm | val_mape=28.67% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 335/600 | train_loss=6122.3064 | val_loss=10554.9813 | val_mae=236.330cm | val_mape=29.81% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 336/600 | train_loss=6477.4471 | val_loss=9889.7074 | val_mae=222.941cm | val_mape=30.27% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 337/600 | train_loss=6202.5751 | val_loss=9838.6217 | val_mae=222.416cm | val_mape=30.19% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 338/600 | train_loss=5911.8804 | val_loss=9873.6357 | val_mae=223.544cm | val_mape=29.78% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 339/600 | train_loss=5742.2426 | val_loss=10070.5316 | val_mae=225.968cm | val_mape=31.07% | val_f1=1.000
+2026-04-30 20:50:48 | INFO     | Epoch 340/600 | train_loss=6111.7312 | val_loss=9981.5754 | val_mae=224.424cm | val_mape=29.51% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 341/600 | train_loss=6208.3284 | val_loss=9952.2534 | val_mae=224.549cm | val_mape=29.82% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 342/600 | train_loss=6507.1965 | val_loss=10067.1328 | val_mae=227.244cm | val_mape=29.90% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 343/600 | train_loss=5972.0817 | val_loss=9791.1992 | val_mae=221.347cm | val_mape=29.82% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 344/600 | train_loss=5950.1727 | val_loss=9865.6558 | val_mae=222.091cm | val_mape=29.54% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 345/600 | train_loss=5840.9489 | val_loss=9704.3385 | val_mae=218.941cm | val_mape=28.90% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 346/600 | train_loss=6286.9875 | val_loss=10351.4022 | val_mae=231.780cm | val_mape=29.84% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 347/600 | train_loss=6352.3477 | val_loss=9856.3024 | val_mae=222.331cm | val_mape=29.35% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 348/600 | train_loss=5940.9980 | val_loss=9864.5705 | val_mae=223.191cm | val_mape=28.47% | val_f1=1.000
+2026-04-30 20:50:49 | INFO     | Epoch 349/600 | train_loss=6232.3961 | val_loss=9611.0961 | val_mae=218.188cm | val_mape=29.00% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 350/600 | train_loss=5895.9630 | val_loss=9888.3976 | val_mae=223.023cm | val_mape=28.88% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 351/600 | train_loss=5891.7561 | val_loss=9877.2819 | val_mae=223.443cm | val_mape=28.86% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 352/600 | train_loss=6162.2290 | val_loss=9632.6619 | val_mae=218.546cm | val_mape=28.46% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 353/600 | train_loss=5656.6031 | val_loss=9673.5633 | val_mae=218.872cm | val_mape=29.03% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 354/600 | train_loss=5670.0297 | val_loss=9676.9323 | val_mae=219.175cm | val_mape=28.75% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 355/600 | train_loss=5603.3201 | val_loss=9828.0628 | val_mae=222.452cm | val_mape=29.41% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 356/600 | train_loss=6296.0589 | val_loss=9871.0251 | val_mae=222.149cm | val_mape=29.83% | val_f1=1.000
+2026-04-30 20:50:50 | INFO     | Epoch 357/600 | train_loss=5799.8630 | val_loss=9635.9688 | val_mae=217.279cm | val_mape=28.71% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 358/600 | train_loss=6184.0943 | val_loss=9878.2799 | val_mae=221.790cm | val_mape=28.85% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 359/600 | train_loss=5673.6754 | val_loss=10080.9276 | val_mae=226.949cm | val_mape=29.27% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 360/600 | train_loss=6026.8177 | val_loss=9776.2038 | val_mae=220.352cm | val_mape=29.77% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 361/600 | train_loss=5880.1995 | val_loss=9927.0054 | val_mae=223.895cm | val_mape=28.69% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 362/600 | train_loss=5767.5689 | val_loss=9702.5194 | val_mae=219.540cm | val_mape=28.74% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 363/600 | train_loss=6366.4009 | val_loss=9900.6432 | val_mae=223.164cm | val_mape=29.56% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 364/600 | train_loss=5839.7809 | val_loss=9517.2809 | val_mae=215.564cm | val_mape=28.27% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 365/600 | train_loss=5761.0578 | val_loss=9847.6589 | val_mae=222.093cm | val_mape=29.06% | val_f1=1.000
+2026-04-30 20:50:51 | INFO     | Epoch 366/600 | train_loss=6057.2689 | val_loss=9676.4168 | val_mae=219.155cm | val_mape=28.93% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 367/600 | train_loss=5771.2582 | val_loss=9688.3185 | val_mae=219.639cm | val_mape=28.76% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 368/600 | train_loss=5945.9914 | val_loss=9861.0758 | val_mae=221.787cm | val_mape=29.65% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 369/600 | train_loss=5901.9289 | val_loss=9720.8511 | val_mae=219.260cm | val_mape=28.86% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 370/600 | train_loss=6078.3291 | val_loss=9774.1554 | val_mae=219.725cm | val_mape=29.17% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 371/600 | train_loss=5679.2386 | val_loss=9762.7938 | val_mae=219.839cm | val_mape=29.48% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 372/600 | train_loss=5963.0083 | val_loss=9644.7570 | val_mae=218.006cm | val_mape=29.09% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 373/600 | train_loss=5652.1691 | val_loss=9766.4995 | val_mae=220.104cm | val_mape=28.75% | val_f1=1.000
+2026-04-30 20:50:52 | INFO     | Epoch 374/600 | train_loss=5962.1649 | val_loss=9651.6885 | val_mae=217.957cm | val_mape=28.93% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 375/600 | train_loss=5872.4924 | val_loss=9838.3537 | val_mae=221.361cm | val_mape=29.02% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 376/600 | train_loss=5557.7678 | val_loss=9844.0171 | val_mae=221.461cm | val_mape=29.60% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 377/600 | train_loss=5788.6896 | val_loss=9896.3966 | val_mae=222.250cm | val_mape=29.61% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 378/600 | train_loss=6064.6163 | val_loss=9768.6854 | val_mae=220.365cm | val_mape=28.91% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 379/600 | train_loss=5680.7736 | val_loss=9729.9333 | val_mae=219.737cm | val_mape=28.95% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 380/600 | train_loss=6396.6185 | val_loss=9847.3472 | val_mae=220.998cm | val_mape=29.44% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 381/600 | train_loss=5232.2885 | val_loss=9790.4674 | val_mae=220.539cm | val_mape=29.53% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 382/600 | train_loss=5895.5346 | val_loss=9742.8327 | val_mae=219.697cm | val_mape=29.46% | val_f1=1.000
+2026-04-30 20:50:53 | INFO     | Epoch 383/600 | train_loss=5906.0221 | val_loss=9801.0924 | val_mae=221.178cm | val_mape=28.97% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 384/600 | train_loss=5845.4229 | val_loss=9742.4059 | val_mae=219.734cm | val_mape=28.43% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 385/600 | train_loss=6000.9288 | val_loss=9499.5547 | val_mae=214.873cm | val_mape=28.14% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 386/600 | train_loss=5969.4271 | val_loss=9456.2938 | val_mae=214.050cm | val_mape=28.41% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 387/600 | train_loss=5666.0981 | val_loss=9529.1214 | val_mae=215.085cm | val_mape=28.33% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 388/600 | train_loss=6202.8407 | val_loss=9524.7327 | val_mae=215.865cm | val_mape=28.77% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 389/600 | train_loss=6364.8338 | val_loss=9663.8215 | val_mae=218.872cm | val_mape=28.24% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 390/600 | train_loss=5877.2739 | val_loss=9633.1758 | val_mae=217.674cm | val_mape=28.59% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 391/600 | train_loss=6005.5593 | val_loss=9684.8949 | val_mae=218.519cm | val_mape=28.87% | val_f1=1.000
+2026-04-30 20:50:54 | INFO     | Epoch 392/600 | train_loss=5640.1825 | val_loss=9732.1665 | val_mae=219.026cm | val_mape=29.19% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 393/600 | train_loss=5756.3924 | val_loss=9455.4424 | val_mae=213.811cm | val_mape=28.49% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 394/600 | train_loss=5776.8811 | val_loss=9585.5794 | val_mae=216.163cm | val_mape=29.15% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 395/600 | train_loss=5855.7455 | val_loss=9677.2157 | val_mae=218.177cm | val_mape=28.70% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 396/600 | train_loss=5627.5466 | val_loss=9655.6844 | val_mae=218.340cm | val_mape=29.21% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 397/600 | train_loss=6073.5014 | val_loss=9523.0047 | val_mae=215.071cm | val_mape=28.51% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 398/600 | train_loss=5733.8267 | val_loss=9634.7161 | val_mae=218.217cm | val_mape=28.84% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 399/600 | train_loss=5818.1822 | val_loss=9713.6126 | val_mae=220.296cm | val_mape=28.94% | val_f1=1.000
+2026-04-30 20:50:55 | INFO     | Epoch 400/600 | train_loss=5763.3063 | val_loss=9596.6997 | val_mae=216.968cm | val_mape=29.43% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Epoch 401/600 | train_loss=5485.1593 | val_loss=9618.0540 | val_mae=217.436cm | val_mape=29.13% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Epoch 402/600 | train_loss=5627.8723 | val_loss=9646.2036 | val_mae=218.582cm | val_mape=28.96% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Epoch 403/600 | train_loss=5499.4555 | val_loss=9678.6296 | val_mae=218.857cm | val_mape=28.92% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Epoch 404/600 | train_loss=5429.9908 | val_loss=9683.9924 | val_mae=219.112cm | val_mape=28.67% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Epoch 405/600 | train_loss=5330.9359 | val_loss=9651.5146 | val_mae=217.731cm | val_mape=29.33% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Epoch 406/600 | train_loss=5977.6253 | val_loss=9669.6566 | val_mae=218.388cm | val_mape=29.50% | val_f1=1.000
+2026-04-30 20:50:56 | INFO     | Early stopping triggered at epoch 406 (no improvement for 100 epochs)
+2026-04-30 20:50:56 | INFO     | --------------------------------------------------------------------------------
+2026-04-30 20:50:56 | INFO     | Training complete. Best val_loss: 9369.7920
+2026-04-30 20:50:56 | INFO     | Training figure  : checkpoints\carp_weight_combined_model\20260430_205005\training_summary.png
+2026-04-30 20:50:56 | INFO     | Best checkpoint  : checkpoints\carp_weight_combined_model\20260430_205005\best_model.pt
