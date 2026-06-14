@@ -233,11 +233,11 @@ def run_inference(
         })
 
     return {
+        "unix_timestamp":    unix_timestamp,
         "authentication": {
             "authentication_code": "",
             "device_id":           "",
         },
-        "unix_timestamp":    unix_timestamp,
         "Water temperature": None,
         "Water resistance":  None,
         "detections":        result_dets,
@@ -259,11 +259,11 @@ def _csv_start_unix(df: "pd.DataFrame") -> int:
 
 def _empty_result(csv_path, species, weight_variant) -> dict:
     return {
+        "unix_timestamp":    0,
         "authentication": {
             "authentication_code": "",
             "device_id":           "",
         },
-        "unix_timestamp":    0,
         "Water temperature": None,
         "Water resistance":  None,
         "detections":        [],
